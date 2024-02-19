@@ -1,9 +1,8 @@
-import "../styles/components/navigation.scss";
+import "../assets/styles/components/navigation.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown, faBars } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.jpg";
-import drone from "../assets/drone.png";
+import { aeroday } from "../assets/images";
 
 const NavBar = () => {
   return (
@@ -11,7 +10,7 @@ const NavBar = () => {
       <div className="container-fluid p-0">
         <NavLink to={"/"} className="navbar-brand">
           <img
-            src={logo}
+            src={aeroday}
             alt="logo"
             // width={100}
             // height={70}
@@ -127,9 +126,7 @@ const NavBar = () => {
               </ul>
             </li>
           </ul>
-          <a href="contact.html" className="ticket">
-            <img src={drone} alt="drone" width={50} height={50} />
-          </a>
+          <a href="contact.html" className="ticket"></a>
         </div>
       </div>
     </nav>

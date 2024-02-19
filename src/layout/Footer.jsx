@@ -1,13 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../styles/components/footer.scss";
+import "../assets/styles/components/footer.scss";
 import {
   faFacebook,
   faLinkedin,
   faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import Aeroday from "../assets/aeroday.jpg";
 import { NavLink } from "react-router-dom";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import { aeroday } from "../assets/images";
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="block text-center">
                 <div className="footer-logo">
                   <img
-                    src={Aeroday}
+                    src={aeroday}
                     alt="logo"
                     className="img-fluid"
                     width={300}
