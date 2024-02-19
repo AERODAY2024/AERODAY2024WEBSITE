@@ -4,9 +4,9 @@ import Home from "./Home";
 import AboutUs from "./AboutUs";
 import Contact from "./Contact";
 import { Layout } from "../layout";
-import Axe from "./Axe";
-import Challenge from "./Challenge";
-
+import Schedule from "./Schedule";
+import { Axe } from "./Axes";
+import { Challenge } from "./Challenges";
 export const Router = () => {
   return (
     <BrowserRouter>
@@ -19,8 +19,7 @@ export const Router = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/axes/:axeName" element={<Axe />} />
           <Route path="/challenges/:challengeName" element={<Challenge />} />
-
-          {/* <Route path="/" element={< />} /> */}
+          <Route path="/schedule" element={<Schedule />} />
 
           {/* not found */}
           <Route path="*" element={<Missing />} />

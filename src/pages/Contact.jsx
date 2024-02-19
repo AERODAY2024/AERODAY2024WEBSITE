@@ -1,7 +1,10 @@
+import ContactForm from "../components/ContactForm";
+import "../assets/styles/pages/contact.scss";
+
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <ContactForm />
     </div>
   );
 };

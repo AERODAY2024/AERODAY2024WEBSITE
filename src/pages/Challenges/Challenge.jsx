@@ -11,4 +11,4 @@ const Challenge = () => {
   );
 };
 
-export default Challenge;
+export { Challenge };
