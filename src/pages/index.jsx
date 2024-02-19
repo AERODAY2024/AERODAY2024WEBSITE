@@ -1,12 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Missing from "./Missing";
-import Home from "./Home";
-import AboutUs from "./AboutUs";
-import Contact from "./Contact";
 import { Layout } from "../layout";
-import Schedule from "./Schedule";
 import { Axe } from "./Axes";
 import { Challenge } from "./Challenges";
+import { AboutUs } from "./About";
+import { Contact } from "./Contact";
+import { Schedule } from "./Schedule";
+import { Home } from "./Home";
+
 export const Router = () => {
   return (
     <BrowserRouter>

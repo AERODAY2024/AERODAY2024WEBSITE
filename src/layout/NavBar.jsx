@@ -29,28 +29,26 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item dropdown active">
-              <NavLink to={"/"} className="nav-link" data-toggle="dropdown">
+            <li className="nav-item active">
+              <NavLink to={"/"} className="nav-link">
                 Home
                 <span>/</span>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                to={"/about-us"}
-                className="nav-link"
-                href="speakers.html"
-              >
+              <NavLink to={"/schedule"} className="nav-link">
+                Schedule
+                <span>/</span>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to={"/about-us"} className="nav-link">
                 About us
                 <span>/</span>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                to={"/contact"}
-                className="nav-link"
-                href="speakers.html"
-              >
+              <NavLink to={"/contact"} className="nav-link">
                 Contact us
                 <span>/</span>
               </NavLink>
