@@ -8,7 +8,8 @@ const Axe = () => {
 
   return (
     <div className="mt-5 pt-5">
-      <AxeCard axe={currentAxe.name} />
+      <h1>{currentAxe.name}</h1>
+      <AxeCard axe={currentAxe} />
     </div>
   );
 };
