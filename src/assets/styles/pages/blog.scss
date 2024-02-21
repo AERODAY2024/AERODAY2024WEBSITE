@@ -1,4 +1,6 @@
-.news{
+@import "../common/index.scss";
+
+
 	.blog-post{
 		transition: .2s ease;
 		margin-bottom: 30px;
@@ -244,7 +246,9 @@
 			margin-bottom: 30px;
 		}
 	}
-}
+
+
+
 
 // Pagination
 ul.pagination{
