@@ -1,5 +1,4 @@
 import { useNavigate, useParams } from "react-router-dom";
-import { useNavigate, useParams} from "react-router-dom";
 import { axes } from "../../constants";
 import AxeCard from "./components/AxeCard";
 import "../../assets/styles/common/index.scss";
