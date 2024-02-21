@@ -1,4 +1,5 @@
 @import "../common/index.scss";
+
 .main-nav {
   background: $light;
 
@@ -7,20 +8,16 @@
   }
 
   .navbar-brand {
-    padding: 0;
-    border-right: 2px solid $border-color;
+    padding-right: 50px;
+    border-right: 1px solid $border-color;
+
+    @include tablet {
+      border-right: none;
+    }
 
     img {
       max-width: 100px;
       height: auto;
-    }
-
-    @include large-desktop {
-      padding: 20px 30px;
-    }
-
-    @include tablet {
-      border-right: none;
     }
   }
 
@@ -40,8 +37,6 @@
         color: $black;
         padding-left: 5px;
         padding-right: 17px;
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
         font-size: 1.06rem;
         font-family: $secondary-font;
 
@@ -53,11 +48,6 @@
         @include large-desktop {
           padding-left: 4px;
           padding-right: 10px;
-        }
-
-        @include desktop-sm {
-          padding-top: 0.5rem;
-          padding-bottom: 0.5rem;
         }
 
         span {
@@ -203,40 +193,12 @@
   .ticket {
     background: $primary-color;
     display: block;
-    padding: 34px 32px;
-
-    @include desktop-nav {
-      padding: 34px 26px;
-    }
-
-    @include large-desktop {
-      padding: 23px 26px;
-    }
-
-    @include desktop-sm {
-      text-align: center;
-    }
 
     img {
-      margin-right: 25px;
+      max-width: 100px;
 
       @include large-desktop {
         display: none;
-      }
-    }
-
-    span {
-      color: $light;
-      font-size: 1.125rem;
-      text-transform: uppercase;
-      font-family: $secondary-font;
-      border-left: 1px solid #ffa366;
-      padding-left: 24px;
-
-      @include large-desktop {
-        padding-left: 0;
-        font-size: 1rem;
-        border-left: none;
       }
     }
   }
