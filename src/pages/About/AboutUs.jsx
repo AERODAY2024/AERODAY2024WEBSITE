@@ -1,9 +1,12 @@
+import "../../assets/styles/pages/home.scss";
+
+import "../../assets/styles/pages/about.scss";
+import AboutComponent from "../../components/AboutComponent"
+
 const AboutUs = () => {
-  return (
-    <div>
-      <h1>About Us</h1>
-    </div>
-  );
+ return (
+  <AboutComponent />
+ )
 };
 
 export { AboutUs };
