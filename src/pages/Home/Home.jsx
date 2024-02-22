@@ -1,6 +1,6 @@
 import "../../assets/styles/pages/home.scss";
-import AboutSection from "../../components/AboutSection";
-import Banner from "../../components/Banner";
+import { AboutSection, Banner } from "../../components";
+
 const Home = () => {
   return (
     <>
