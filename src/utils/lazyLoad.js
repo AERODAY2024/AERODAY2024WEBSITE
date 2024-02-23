@@ -1,21 +1,14 @@
 import { lazy } from "react";
-import { wait } from "./";
+import { wait } from "./wait";
 
-const lazyLoad = (pathFromSrc, namedExport) => {
-  return lazy(async () => {
-    const path = "../" + pathFromSrc;
-    const promise = wait().then(() =>
-      import(
-        /* @vite-ignore */
-        path
-      )
-    );
+const lazyLoad = (path, namedExport) => {
+  return lazy(() => {
+    const promise = wait().then(() => import(`../${path}`));
 
     if (namedExport == null) {
       return promise;
     } else {
-      const module = await promise;
-      return { default: module[namedExport] };
+      return promise.then((module) => ({ default: module[namedExport] }));
     }
   });
 };
