@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Layout } from "../layout";
 import { lazyLoad } from "../utils";
 
-const Home = lazyLoad("./pages/Home", "Home");
+const Home = lazyLoad("pages/Home", "Home");
 const AboutUs = lazyLoad("pages/About", "AboutUs");
 const Contact = lazyLoad("pages/Contact", "Contact");
 const Axe = lazyLoad("pages/Axes", "Axe");
