@@ -13,33 +13,30 @@ const AboutSection = () => {
           <div className="col-lg-8 col-md-6 align-self-center">
             <div className="content-block">
               <h2>
-                About The <span className="alternate">Eventre</span>
+                About The <span className="alternate">AERODAY</span>
               </h2>
               <div className="description-one">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusm tempor incididunt ut labore dolore magna aliqua enim
-                  ad minim veniam quis nostrud exercitation ullamco.
+                  Tunisian Aeoroday est l’unique journée nationale consacrée
+                  entiérement à l’Aeronautique en Tunisie, elle est fondé par le
+                  club Aerobotix INSAT en collaboration avec l’Assocation de
+                  techniques de robotiques (ATR)
                 </p>
               </div>
               <div className="description-two">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmtempor incididunt ut labore et dolore magna aliq enim
-                  ad minim veniam quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea.
+                  Cette journée est basée sur plusieurs axes et sur des
+                  différents challenges et elle opte pour la vulgarisation du
+                  domaine aéronautique chez le grand public ainsi que sur la
+                  découverte de nouveaux potentiels dont disposent les jeunes.
                 </p>
               </div>
               <ul className="list-inline">
                 <li className="list-inline-item">
-                  <a href="#" className="btn btn-main-md">
-                    Buy ticket
-                  </a>
+                  <a className="btn btn-main-md">Nos Axes</a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#" className="btn btn-transparent-md">
-                    Read more
-                  </a>
+                  <a className="btn btn-transparent-md">Nos Challenges</a>
                 </li>
               </ul>
             </div>
@@ -50,4 +47,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export  {AboutSection};

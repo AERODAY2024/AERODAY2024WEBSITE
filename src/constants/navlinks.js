@@ -4,17 +4,14 @@ export const navlinks = [
     url: "/",
   },
   {
-    title: "Schedule",
-    url: "/schedule",
-  },
-  {
     title: "About us",
     url: "/about-us",
   },
   {
-    title: "Contact us",
-    url: "/contact",
+    title: "Schedule",
+    url: "/schedule",
   },
+
   {
     title: "Axes",
     url: "/axes",
@@ -62,5 +59,9 @@ export const navlinks = [
         url: "/challenges/aeroentrepreneur",
       },
     ],
+  },
+  {
+    title: "Contact us",
+    url: "/contact",
   },
 ];

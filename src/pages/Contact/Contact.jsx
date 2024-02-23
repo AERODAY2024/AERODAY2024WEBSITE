@@ -1,5 +1,5 @@
-import ContactForm from "../../components/ContactForm";
 import "../../assets/styles/pages/contact.scss";
+import { ContactForm } from "../../components";
 
 const Contact = () => {
   return (

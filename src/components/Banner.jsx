@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Banner = () => {
   return (
     <section className="banner bg-banner-one overlay">
@@ -6,12 +8,12 @@ const Banner = () => {
           <div className="col-lg-12">
             <div className="block">
               <div className="timer"></div>
-              <h1>Business</h1>
-              <h2>Conference 2017</h2>
-              <h6>02-05 July 2017 California</h6>
-              <a href="contact.html" className="btn btn-white-md">
-                get ticket now
-              </a>
+              <h1>Tunisian</h1>
+              <h2>Aeroday 2024</h2>
+              <h6>14 & 21 AVRIL 2024 INSAT</h6>
+              <NavLink to={"/about-us"} className="btn btn-white-md">
+                Lire la suite
+              </NavLink>
             </div>
           </div>
         </div>
@@ -20,4 +22,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export  {Banner};
