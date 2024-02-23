@@ -1,12 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Missing from "./Missing";
 import { Layout } from "../layout";
-import { Axe } from "./Axes";
-import { Challenge } from "./Challenges";
-import { AboutUs } from "./About";
-import { Contact } from "./Contact";
-import { Schedule } from "./Schedule";
-import { Home } from "./Home";
+import { lazyLoad } from "../utils";
+
+const Home = lazyLoad("./pages/Home", "Home");
+const AboutUs = lazyLoad("./pages/About", "AboutUs");
+const Contact = lazyLoad("./pages/Contact", "Contact");
+const Axe = lazyLoad("./pages/Axes", "Axe");
+const Challenge = lazyLoad("./pages/Challenges", "Challenge");
+const Schedule = lazyLoad("./pages/Schedule", "Schedule");
+
+const Missing = lazyLoad(() => import("./Missing"));
 
 export const Router = () => {
   return (

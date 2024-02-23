@@ -1,12 +1,16 @@
 import { Outlet } from "react-router-dom";
 import { Footer, NavBar } from "./components";
+import { Suspense } from "react";
+import { Loader } from "../components/UI";
 
 export const Layout = () => {
   return (
     <>
-      <NavBar />
-      <Outlet />
-      <Footer />
+      <Suspense fallback={<Loader />}>
+        <NavBar />
+        <Outlet />
+        <Footer />
+      </Suspense>
     </>
   );
 };
