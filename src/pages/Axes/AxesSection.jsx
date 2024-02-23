@@ -1,9 +1,10 @@
 import { axesArray } from "../../constants";
-import AxeCard from "../Axes/components/AxeCard";
+import AxeItem from "./components/AxeItem";
 
 const renderedAxeCards = axesArray.map((axe) => {
-  return <AxeCard key={axe.name} axe={axe} />;
+  return <AxeItem key={axe.name} axe={axe} />;
 });
+
 const AxesSection = () => {
   return (
     <section className="news section">
