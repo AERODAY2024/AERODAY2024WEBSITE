@@ -1,8 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Layout } from "../layout";
 import { lazyLoad } from "../utils";
+import { lazy } from "react";
 
-const Home = lazyLoad("./pages/Home", "Home");
+// const Home = lazyLoad("./pages/Home", "Home");
+const Home = lazy(() =>
+  import("./Home/index").then((module) => ({ default: module.Home }))
+);
 const AboutUs = lazyLoad("./pages/About", "AboutUs");
 const Contact = lazyLoad("./pages/Contact", "Contact");
 const Axe = lazyLoad("./pages/Axes", "Axe");
