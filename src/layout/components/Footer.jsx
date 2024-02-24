@@ -13,9 +13,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { logoWithoutBackground } from "../../assets/images";
 const Footer = () => {
-  // const scrollToTop = () => {
-  //   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  // };
   return (
     <footer className="footer-section">
       <div className="container">
