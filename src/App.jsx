@@ -1,4 +1,4 @@
-import { ScrollTop } from "./components/UI";
+import { ScrollTop, SocialMedia } from "./components/UI";
 import { Router } from "./pages";
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <>
       <Router />
       <ScrollTop />
+      <SocialMedia />
     </>
   );
 }
