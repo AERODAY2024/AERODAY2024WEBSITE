@@ -5,14 +5,22 @@ import {
   faLinkedin,
   faSquareInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   faEnvelope,
   faMapLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { logoWithoutBackground } from "../../assets/images";
+import { scrollToTop } from "../../utils";
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleRedirectToHome = () => {
+    navigate("/");
+    scrollToTop();
+  };
+
   return (
     <footer className="footer-section">
       <div className="container">
@@ -20,9 +28,9 @@ const Footer = () => {
           <div className="col-lg-6">
             <div className="footer-logo-item">
               <div className="f-logo">
-                <NavLink to={"/"}>
+                <a onClick={handleRedirectToHome}>
                   <img src={logoWithoutBackground} alt="" />
-                </NavLink>
+                </a>
               </div>
               <p>
                 {`Tunisian Aeroday est l'unique journée nationale consacrée
@@ -48,7 +56,7 @@ const Footer = () => {
                   <span>Phone:</span>
                   +216 28 106 396
                 </li>
-                <li className="list-inline-item">
+                {/* <li className="list-inline-item">
                   <a href="https://www.facebook.com/TunAeroday/">
                     <span>
                       <i>
@@ -74,7 +82,7 @@ const Footer = () => {
                       </i>
                     </span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import { faPlaneUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { scrollToTop } from "../../utils";
 
 const floatStyles = {
   position: "fixed",
@@ -13,9 +14,7 @@ const floatStyles = {
   textAlign: "center",
   cursor: "pointer",
 };
-const scrollToTop = () => {
-  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-};
+
 const ScrollTop = () => {
   return (
     <div style={floatStyles} onClick={scrollToTop}>

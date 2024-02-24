@@ -1,7 +1,7 @@
-import { challengesArray } from "../../../constants";
-import ChallengeHomeCard from "./ChallengeHomeCard";
+import { challengesArray } from "../../constants";
+import { ChallengeHomeCard } from "./components";
 
-const ChallengeHome = ({}) => {
+const ChallengesSection = () => {
   return (
     <section className="news section">
       <div className="container">
@@ -20,7 +20,9 @@ const ChallengeHome = ({}) => {
         </div>
         <div className="row">
           {challengesArray.map((challenge) => {
-            return <ChallengeHomeCard challenge={challenge} key={challenge.name} />
+            return (
+              <ChallengeHomeCard challenge={challenge} key={challenge.name} />
+            );
           })}
         </div>
       </div>
@@ -28,7 +30,4 @@ const ChallengeHome = ({}) => {
   );
 };
 
-export default ChallengeHome;
-
-// array.map((challenge)=>{})
-//challengesArray = [{chl1} , {chlg2}]
+export { ChallengesSection };
