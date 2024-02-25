@@ -7,7 +7,7 @@ const Sponsors = () => {
     <Carousel className="testimonial-section bg-sponsors spad">
       {sponsors.map((sponsor, i) => {
         return (
-          <Carousel.Item interval={500} className="ts-item" key={i}>
+          <Carousel.Item interval={1500} className="ts-item" key={i}>
             <div className="sponsor-pic">
               <img src={sponsor.image} />
             </div>

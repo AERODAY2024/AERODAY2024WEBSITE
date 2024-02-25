@@ -2,7 +2,7 @@ import { addDoc, collection } from "firebase/firestore";
 import { useState } from "react";
 import { db } from "./index";
 
-const ContactForm = () => {
+const ContactForm = ({ className }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -37,7 +37,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container">
+    <div className={`container ${className}`}>
       <div className="row">
         <div className="col-12">
           <div className="section-title">
@@ -89,6 +89,7 @@ const ContactForm = () => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             rows={10}
+            style={{ height: "100px" }}
             placeholder="Your Message"
           ></textarea>
         </div>

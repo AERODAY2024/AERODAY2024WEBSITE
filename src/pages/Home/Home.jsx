@@ -1,5 +1,5 @@
 import "../../assets/styles/pages/home.scss";
-import { AboutSection, Banner } from "../../components";
+import { AboutSection, Banner, ContactForm } from "../../components";
 import { ChallengesSection } from "../Challenges";
 import { Sponsors } from "./components";
 
@@ -10,6 +10,7 @@ const Home = () => {
       <AboutSection />
       <ChallengesSection />
       <Sponsors />
+      <ContactForm className={"my-5"} />
     </>
   );
 };
