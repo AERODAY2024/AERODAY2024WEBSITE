@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const ChallengeHomeCard = ({ challenge }) => {
   return (
-    <div className="col-lg-6  col-sm-8 col-10 m-auto">
+    <div className="col-lg-6 col-sm-8 col-10 m-auto">
       <NavLink to={`${challenge.url}`}>
         <div className="blog-post">
           <div className="post-thumb">

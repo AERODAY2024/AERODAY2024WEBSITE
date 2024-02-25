@@ -10,10 +10,10 @@ const Home = () => {
       <Banner />
       <AboutSection />
       <ChallengesSection />
+      <AxesSection />
       <Sponsors />
       <ContactForm className={"my-5"} />
       <Map />
-      <AxesSection />
     </>
   );
 };

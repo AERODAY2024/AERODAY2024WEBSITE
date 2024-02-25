@@ -1,10 +1,5 @@
 import { axesArray } from "../../constants";
-import AxeItem from "./components/AxeItem";
-
-const renderedAxeCards = axesArray.map((axe) => {
-  return <AxeItem key={axe.name} axe={axe} />;
-});
-
+import { AxeItem } from "./components/AxeItem";
 const AxesSection = () => {
   return (
     <section className="news section">
@@ -13,7 +8,7 @@ const AxesSection = () => {
           <div className="col-12">
             <div className="section-title">
               <h3>
-                Eventre <span className="alternate">News</span>
+                Nos <span className="alternate">Axes</span>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
@@ -22,7 +17,11 @@ const AxesSection = () => {
             </div>
           </div>
         </div>
-        <div className="row">{renderedAxeCards}</div>
+        <div className="row">
+          {axesArray.map((axe) => {
+            return <AxeItem key={axe.name} axe={axe} />;
+          })}
+        </div>
       </div>
     </section>
   );
