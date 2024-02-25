@@ -2,15 +2,12 @@ import { NavLink } from "react-router-dom";
 import "../assets/styles/components/page-title.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { getRandomElement } from "../utils";
-import { images } from "../assets/images";
 
 // eslint-disable-next-line react/prop-types
-const PageTitle = ({ title, page }) => {
-  const bgImage = getRandomElement(images);
+const PageTitle = ({ title, page, bgImage }) => {
   return (
     <section
-      className="page-title bg-title overlay-dark"
+      className="page-title bg-title overlay-lighter"
       style={{ background: `url(${bgImage}) no-repeat` }}
     >
       <div className="container">
