@@ -1,14 +1,15 @@
 import "../../assets/styles/pages/home.scss";
 
 import "../../assets/styles/pages/about.scss";
-import AboutComponent from "../../components/AboutComponent";
-import { PageTitle } from "../../components";
+import { AboutSection, PageTitle } from "../../components";
+import { Committee } from "./componenets";
 
 const AboutUs = () => {
   return (
     <>
       <PageTitle page={"ABOUT"} title={"ABOUT"} />
-      <AboutComponent />
+      <AboutSection />
+      <Committee />
     </>
   );
 };
