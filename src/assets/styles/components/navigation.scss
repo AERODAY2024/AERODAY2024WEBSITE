@@ -2,8 +2,8 @@
 
 $font-family: "Roboto", sans-serif;
 $font-size-base: 1.2rem;
-$base-color: #d1ad4aa8;
-$text-dark: #d1ae4a;
+$base-color: gold;
+$text-dark: white;
 $border-color: #151515a9;
 
 $navbar-body-color: #23282d;
@@ -137,7 +137,6 @@ $navbar-dropdown-separator-color: $border-color;
       @media (max-width: 768px) {
         width: 100%;
         display: block;
-        border-top: 1px solid #eee;
         margin-top: 1rem;
       }
 
@@ -156,7 +155,7 @@ $navbar-dropdown-separator-color: $border-color;
         }
         &.active {
           a {
-            color: $base-color;
+            color: $text-dark;
           }
         }
       }
@@ -166,7 +165,7 @@ $navbar-dropdown-separator-color: $border-color;
           list-style: none;
           position: absolute;
           top: 150%;
-          background-color: #fff;
+          background-color: $navbar-body-color;
           padding: 0;
           padding-top: $navbar-dropdown-padding-y;
           padding-bottom: $navbar-dropdown-padding-y;
@@ -184,11 +183,11 @@ $navbar-dropdown-separator-color: $border-color;
           li {
             a {
               text-decoration: none;
-              color: $navbar-body-color;
+              color: $text-dark;
               padding: $navbar-dropdown-item-padding-y
                 $navbar-dropdown-item-padding-x;
               display: block;
-              border-bottom: 2px solid $base-color;
+              // border-bottom: 2px solid $base-color;
             }
             // the last child
             &:last-child {

@@ -7,7 +7,7 @@ import { logoWithoutBackground } from "../../assets/images";
 
 const NavBar = () => {
   const dropdownRef = useRef(null);
-  const [dropdownIsOpen, setDropdownIsOpen] = useState(false);
+  const [dropdownIsOpen, setDropdownIsOpen] = useState(0);
 
   const navbarMenuToggler = useRef(null);
   const [navbarMenuIsOpen, setNavbarMenuIsOpen] = useState(false);
@@ -19,7 +19,7 @@ const NavBar = () => {
         dropdownRef.current &&
         !dropdownRef.current.contains(event.target)
       ) {
-        setDropdownIsOpen(false);
+        setDropdownIsOpen(0);
       }
     };
 
@@ -31,7 +31,11 @@ const NavBar = () => {
   }, [dropdownIsOpen]);
 
   const handleDropdownClick = (index) => {
-    setDropdownIsOpen(dropdownIsOpen === index ? 0 : index);
+    console.log("dropdownIsOpen: ", dropdownIsOpen);
+    console.log("index: ", index);
+    setDropdownIsOpen((dropdownIsOpen) =>
+      dropdownIsOpen === index ? 0 : index
+    );
   };
 
   // Handle opening/closing links on small screens
