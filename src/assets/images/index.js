@@ -5,7 +5,8 @@ import chronoWings from "./chrono_wings.png";
 import logoWithoutBackground from "./logo.png";
 import NotFound from "./404.png";
 import { images } from "./page-title";
-
+import auditorium from "./auditorium.jpg";
+import { sponsorsImages } from "./sponsors";
 export {
   aeroday,
   logo,
@@ -14,4 +15,6 @@ export {
   logoWithoutBackground,
   NotFound,
   images,
+  auditorium,
+  sponsorsImages,
 };
