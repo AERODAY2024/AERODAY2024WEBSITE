@@ -1,0 +1,34 @@
+.bg-sponsors {
+  background: url(/src/assets/images/auditorium.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.testimonial-section {
+  padding-bottom: 130px;
+  padding-top: 130px;
+}
+
+.ts-item {
+  text-align: center;
+}
+
+// .ts-item .sponsor-name {
+// }
+
+.ts-item .sponsor-name h5 {
+  color: #ffffff;
+  font-weight: 500;
+  //   margin-bottom: 4px;
+}
+
+.ts-item .sponsor-name span {
+  display: inline-block;
+  color: #ffffff;
+}
+
+.ts-item .sponsor-pic img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}

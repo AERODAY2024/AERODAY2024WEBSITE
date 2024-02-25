@@ -1,13 +1,27 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Missing from "./Missing";
 import { Layout } from "../layout";
-import { Axe } from "./Axes";
-import { Challenge } from "./Challenges";
-import { AboutUs } from "./About";
-import { Contact } from "./Contact";
-import { Schedule } from "./Schedule";
-import { Home } from "./Home";
+import { lazy } from "react";
 
+const Home = lazy(() =>
+  import("./Home").then((module) => ({ default: module.Home }))
+);
+const AboutUs = lazy(() =>
+  import("./About").then((module) => ({ default: module.AboutUs }))
+);
+const Contact = lazy(() =>
+  import("./Contact").then((module) => ({ default: module.Contact }))
+);
+const Axe = lazy(() =>
+  import("./Axes").then((module) => ({ default: module.Axe }))
+);
+const Challenge = lazy(() =>
+  import("./Challenges").then((module) => ({ default: module.Challenge }))
+);
+const Schedule = lazy(() =>
+  import("./Schedule").then((module) => ({ default: module.Schedule }))
+);
+
+const Missing = lazy(() => import("./Missing"));
 export const Router = () => {
   return (
     <BrowserRouter>

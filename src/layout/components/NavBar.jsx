@@ -1,48 +1,94 @@
 import "../../assets/styles/components/navigation.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
-import { aeroday, chronoWings } from "../../assets/images";
+import { useState, useEffect, useRef } from "react";
 import { navlinks } from "../../constants";
-import { NavLinkItem } from "./";
+import { NavLinkItem } from "./NavLinkItem";
+import { logoWithoutBackground } from "../../assets/images";
 
 const NavBar = () => {
+  const dropdownRef = useRef(null);
+  const [dropdownIsOpen, setDropdownIsOpen] = useState(false);
+
+  const navbarMenuToggler = useRef(null);
+  const [navbarMenuIsOpen, setNavbarMenuIsOpen] = useState(false);
+
+  useEffect(() => {
+    const handleBodyClick = (event) => {
+      if (
+        dropdownIsOpen &&
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target)
+      ) {
+        setDropdownIsOpen(false);
+      }
+    };
+
+    window.addEventListener("mouseup", handleBodyClick);
+
+    return () => {
+      window.removeEventListener("mouseup", handleBodyClick);
+    };
+  }, [dropdownIsOpen]);
+
+  const handleDropdownClick = (index) => {
+    setDropdownIsOpen(dropdownIsOpen === index ? 0 : index);
+  };
+
+  // Handle opening/closing links on small screens
+  const handleNavbarMenuToggle = () => {
+    setNavbarMenuIsOpen((navbarMenuIsOpen) => !navbarMenuIsOpen);
+  };
+
   return (
-    <nav className="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
-      <div className="container-fluid p-0">
-        <NavLink to={"/"} className="navbar-brand">
-          <img src={aeroday} alt="logo" />
-        </NavLink>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <nav className="navbar">
+      <div className="container">
+        <div className="navbar-header">
+          <button
+            className="navbar-toggler"
+            data-toggle="open-navbar1"
+            ref={navbarMenuToggler}
+            onClick={handleNavbarMenuToggle}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <NavLink to={"/"} className="navbar-brand">
+            <img
+              src={logoWithoutBackground}
+              alt="logo"
+              style={{ maxHeight: 50 }}
+            />
+          </NavLink>
+        </div>
+
+        <div
+          className={`navbar-menu ${navbarMenuIsOpen ? "active" : ""}`}
+          id="open-navbar1"
         >
-          <FontAwesomeIcon icon={faBars} />
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mx-auto">
-            {navlinks.map((navlink, index) => (
-              <NavLinkItem navLink={navlink} key={navlink.url} index={index} />
-            ))}
+          <ul className="navbar-nav">
+            {navlinks.map((navlink, i) => {
+              return (
+                <NavLinkItem
+                  key={i}
+                  navLink={navlink}
+                  index={i}
+                  dropdownIsOpen={dropdownIsOpen}
+                  onDropdownClick={handleDropdownClick}
+                  dropdownRef={dropdownRef}
+                />
+              );
+            })}
             <li className="nav-item">
-              {/* eslint-disable-next-line react/prop-types */}
               <NavLink
-                to="https://privacy.aeroday.tn"
-                target="_blank"
+                to={"https://privacy.aeroday.tn"}
                 className="nav-link"
+                target="_blank"
               >
-                Politique
+                Privacy
               </NavLink>
             </li>
           </ul>
-          <a href="contact.html" className="ticket">
-            <img src={chronoWings} alt="ticket" className="chronoWings" />
-          </a>
         </div>
       </div>
     </nav>

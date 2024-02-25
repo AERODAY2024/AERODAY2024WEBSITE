@@ -1,6 +1,6 @@
 import { aeroday } from "../assets/images";
 
-const aenautiques = {
+const aeronautiques = {
   name: "EXPOSITIONS AÉONAUTIQUES",
   description:
     "Des Stands éblouissent les visiteurs par un mélange de créativité et d'enthousiasme des jeunes étudiants intéressés par l'aéronautique, enrichi par le savoir-faire des expérimentés. Parmi les différents projets exposés, on cite Le simulateur de vol monoplace à 360° crée par l'équipe Technique du Club Aerobotix INSAT et exposé lors de l'édition de 2014 celui-ci ressemble au célèbre simulateur de vol de Microsoft pour le monde 3D. Une fois terminé, il sera capable de simuler l'ensemble des mouvements d'avions.",
@@ -41,7 +41,7 @@ const ambassade = {
 };
 
 export const axes = {
-  aenautiques,
+  aeronautiques,
   aerospatiales,
   novices,
   airshow,
@@ -50,6 +50,13 @@ export const axes = {
 
 export const axesArray = [
   aenautiques,
+  aerospatiales,
+  novices,
+  airshow,
+  ambassade,
+];
+export const axesArray = [
+  aeronautiques,
   aerospatiales,
   novices,
   airshow,

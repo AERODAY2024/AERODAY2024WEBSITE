@@ -2,52 +2,48 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
 
-// eslint-disable-next-line react/prop-types
-const NavLinkItem = ({ navLink, index }) => {
-  // eslint-disable-next-line react/prop-types
+const NavLinkItem = ({
+  navLink,
+  index,
+  dropdownIsOpen,
+  onDropdownClick,
+  dropdownRef,
+}) => {
+  const handleDropdownClick = () => {
+    onDropdownClick(index);
+  };
+
   if (navLink.sublinks) {
-    // eslint-disable-next-line react/prop-types
     const navId = "navbarDropdown" + index;
     return (
-      <li className="nav-item dropdown">
-        <a
-          className="nav-link "
-          data-toggle="dropdown"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target={`#${navId}`}
-          aria-controls={navId}
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+      <li className="navbar-dropdown">
+        <NavLink
+          className="dropdown-toggler"
+          data-dropdown={navId}
+          onClick={handleDropdownClick}
         >
-          {/* eslint-disable-next-line react/prop-types */}
           {navLink.title} <FontAwesomeIcon icon={faAngleDown} />
-          <span>/</span>
-        </a>
-        <ul className="dropdown-menu" id={navId}>
-          {/* eslint-disable-next-line react/prop-types */}
-          {navLink.sublinks.map((subLink, index) => (
-            <li key={index}>
-              <NavLink
-                to={subLink.url}
-                className="dropdown-item"
-                href="about-us.html"
-              >
-                {subLink.title}
-              </NavLink>
-            </li>
-          ))}
+        </NavLink>
+        <ul
+          className={`dropdown ${dropdownIsOpen === index ? "show" : ""}`}
+          id={navId}
+          ref={dropdownRef}
+        >
+          {navLink.sublinks.map((sublink, i) => {
+            return (
+              <li key={i}>
+                <NavLink to={sublink.url}>{sublink.title}</NavLink>
+              </li>
+            );
+          })}
         </ul>
       </li>
     );
   } else
     return (
       <li className="nav-item">
-        {/* eslint-disable-next-line react/prop-types */}
         <NavLink to={navLink.url} className="nav-link">
-          {/* eslint-disable-next-line react/prop-types */}
           {navLink.title}
-          <span>/</span>
         </NavLink>
       </li>
     );

@@ -87,6 +87,13 @@
   }
 }
 
+.overlay-blue-gradient {
+  background-image: linear-gradient(
+    135deg,
+    rgba(#96deda, 0.5) 0%,
+    rgba(#537895, 0.7) 100%
+  );
+}
 .overlay-dark {
   &:before {
     content: "";
@@ -190,12 +197,6 @@ button {
   background-size: cover;
 }
 
-.bg-speaker {
-  background: url(../images/background/spaeker-background.jpg) fixed no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
 .bg-timer {
   background: url(../images/background/timer-bg.jpg) no-repeat;
   background-size: cover;
@@ -228,20 +229,8 @@ button {
   background-position: center center;
 }
 
-.bg-sponsors {
-  background: url(../images/background/sponsors-bg.jpg) fixed no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
 .bg-subscribe {
   background: url(../images/background/newsletter-bg.jpg) fixed no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.bg-title {
-  background: url(../images/background/page-title-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
