@@ -1,7 +1,7 @@
 import "../../assets/styles/pages/home.scss";
 import { AboutSection, Banner, ContactForm } from "../../components";
 import { ChallengesSection } from "../Challenges";
-import { Sponsors } from "./components";
+import { Map, Sponsors } from "./components";
 
 const Home = () => {
   return (
@@ -11,6 +11,7 @@ const Home = () => {
       <ChallengesSection />
       <Sponsors />
       <ContactForm className={"my-5"} />
+      <Map />
     </>
   );
 };

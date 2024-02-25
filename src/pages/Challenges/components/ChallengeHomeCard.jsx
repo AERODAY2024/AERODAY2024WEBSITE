@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import "../../../assets/styles/pages/blog.scss";
 
 const ChallengeHomeCard = ({ challenge }) => {
   return (

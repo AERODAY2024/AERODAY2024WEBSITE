@@ -1,5 +1,10 @@
 @import "../common/index.scss";
 
+.intro-title {
+  // background-color: red;
+  margin-right: 0;
+  max-height: max-content;
+}
 .blog-post {
   transition: 0.2s ease;
   margin-bottom: 30px;
