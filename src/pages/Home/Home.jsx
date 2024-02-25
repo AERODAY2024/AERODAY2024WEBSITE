@@ -13,7 +13,7 @@ const Home = () => {
       <Sponsors />
       <AxesSection/>
       <ContactForm className={"my-5"} />
-      <Map />
+      <Map/>
     </>
   );
 };
