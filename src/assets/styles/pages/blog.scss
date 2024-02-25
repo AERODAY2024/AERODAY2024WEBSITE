@@ -3,7 +3,14 @@
 .intro-title {
   // background-color: red;
   margin-right: 0;
-  max-height: max-content;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  background: url(/src/assets/images/classes-title-bg.jpg) no-repeat;
+}
+
+.intro-title-text {
+  color: $light;
 }
 .blog-post {
   transition: 0.2s ease;

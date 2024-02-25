@@ -1,11 +1,158 @@
 @import "../common/index.scss";
 // Banner Styles
-.banner {
-  padding: 250px 0 150px;
+.hero-carousel {
+  height: 100vh;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-text h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 4px;
   position: relative;
-  @include desktop {
-    padding: 100px 0;
+  top: 250px;
+  opacity: 3;
+}
+
+.hero-text h1 {
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 46px;
+  position: relative;
+  top: 250px;
+  opacity: 3;
+}
+
+.about-link {
+  text-decoration: none;
+
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  padding: 0 12px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 160px;
+  height: 46px;
+  border-left: 2px solid #e16521;
+  border-right: 2px solid #d1ae4a;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(100%, #d1ae4a),
+      to(#e16521)
+    ),
+    -webkit-gradient(linear, left top, right top, from(#d1ae4a), color-stop(0%, #e16521));
+  background-image: -o-linear-gradient(left, #d1ae4a 100%, #e16521 100%),
+    -o-linear-gradient(left, #d1ae4a 0%, #e16521 0%);
+  background-image: linear-gradient(to right, #d1ae4a 100%, #e16521 100%),
+    linear-gradient(to right, #d1ae4a 0%, #e16521 0%);
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+  line-height: 45px;
+  position: relative;
+  z-index: 1;
+
+  border-radius: 4px;
+}
+
+.about-link:after {
+  color: #fff;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  background: #e16521;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#e16521),
+    to(#d1ae4a)
+  );
+  background: -o-linear-gradient(left, #e16521, #d1ae4a);
+  background: linear-gradient(to right, #e16521, #d1ae4a);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 2px;
+  opacity: 0;
+}
+
+.hero-text .about-link {
+  position: relative;
+  top: 50px;
+  opacity: 3;
+}
+
+.hero-text .about-link:hover:after {
+  opacity: 1;
+}
+
+.hero-text .about-link {
+  position: relative;
+  top: 250px;
+  opacity: 3;
+}
+
+.bg-hero1 {
+  background: url(/src/assets/images/hero-slider/hero-1.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
+.bg-hero2 {
+  background: url(/src/assets/images/hero-slider/hero-2.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
+.bg-hero3 {
+  background: url(/src/assets/images/hero-slider/hero-3.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
+.banner {
+  position: relative;
+
+  .hero-img {
+    height: 500px;
   }
+
   .block {
     position: relative;
     z-index: 10;
@@ -82,44 +229,6 @@
       color: $light;
       font-weight: 400;
       margin-bottom: 50px;
-    }
-  }
-}
-
-.banner-two {
-  padding: 250px 0 150px;
-  position: relative;
-  overflow: hidden;
-  .block {
-    h1 {
-      color: $primary-color;
-      font-size: 88px;
-      @include mobile {
-        font-size: 40px;
-      }
-    }
-    h2 {
-      font-weight: 400;
-      text-transform: uppercase;
-      font-size: 74px;
-      margin-bottom: 10px;
-      @include mobile {
-        font-size: 35px;
-      }
-    }
-    h3 {
-      font-size: 74px;
-      @include mobile {
-        font-size: 35px;
-      }
-    }
-    h6 {
-      margin-top: 48px;
-      font-weight: 400;
-      margin-bottom: 60px;
-      @include mobile {
-        margin-top: 30px;
-      }
     }
   }
 }

@@ -8,6 +8,7 @@ import { images } from "./page-title";
 import auditorium from "./auditorium.jpg";
 import { sponsorsImages } from "./sponsors";
 import { committeeImages } from "./committee";
+import introBgImg from "./classes-title-bg.jpg";
 
 export {
   aeroday,
@@ -20,4 +21,5 @@ export {
   auditorium,
   sponsorsImages,
   committeeImages,
+  introBgImg,
 };
