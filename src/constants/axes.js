@@ -49,16 +49,9 @@ export const axes = {
 };
 
 export const axesArray = [
-  aenautiques,
-  aerospatiales,
-  novices,
-  airshow,
-  ambassade,
-];
-export const axesArray = [
-  aeronautiques,
-  aerospatiales,
-  novices,
-  airshow,
-  ambassade,
+  { ...aeronautiques, url: "/axes/aeronautiques" },
+  { ...aerospatiales, url: "/axes/aerospatiales" },
+  { ...novices, url: "/axes/novices" },
+  { ...airshow, url: "/axes/airshow" },
+  { ...ambassade, url: "/axes/ambassade" },
 ];

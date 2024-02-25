@@ -8,7 +8,7 @@ const AxesSection = () => {
           <div className="col-12">
             <div className="section-title">
               <h3>
-                Eventre <span className="alternate">News</span>
+                Nos <span className="alternate">Axes</span>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
