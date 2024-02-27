@@ -1,6 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import { NavLink } from "react-router-dom";
 import { Countdown } from "./Countdown";
+import { heroImages } from "../assets/images";
 
 const BannerText = () => {
   return (
@@ -19,13 +20,25 @@ const Banner = () => {
   return (
     <section className="banner">
       <Carousel fade pause={false} className="hero-carousel">
-        <Carousel.Item className="bg-hero1" interval={3000}>
+        <Carousel.Item
+          className="bg-hero1"
+          style={{ background: `url(${heroImages[0]}) fixed no-repeat` }}
+          interval={3000}
+        >
           <BannerText />
         </Carousel.Item>
-        <Carousel.Item className="bg-hero2" interval={3000}>
+        <Carousel.Item
+          className="bg-hero2"
+          style={{ background: `url(${heroImages[1]}) fixed no-repeat` }}
+          interval={3000}
+        >
           <BannerText />
         </Carousel.Item>
-        <Carousel.Item className="bg-hero3" interval={3000}>
+        <Carousel.Item
+          className="bg-hero3"
+          style={{ background: `url(${heroImages[2]}) fixed no-repeat` }}
+          interval={3000}
+        >
           <BannerText />
         </Carousel.Item>
       </Carousel>{" "}
