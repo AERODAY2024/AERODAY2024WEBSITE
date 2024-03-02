@@ -10,6 +10,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
 import { cld } from "../../../config";
+import "../../../assets/styles/pages/speaker.scss";
 
 const Member = ({ member }) => {
   const memberImage = cld
