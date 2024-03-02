@@ -16,13 +16,21 @@ const Committee = () => {
         <div className="row">
           <div className="row d-flex justify-content-center">
             {committee.slice(0, 3).map((member, i) => {
-              return <Member key={i} member={member} />;
+              return (
+                <div className="col-lg-3 col-md-4 col-sm-6" key={i}>
+                  <Member key={i} member={member} />
+                </div>
+              );
             })}
           </div>
         </div>
         <div className="row">
           {committee.slice(3).map((member, i) => {
-            return <Member key={i} member={member} />;
+            return (
+              <div className="col-lg-3 col-md-4 col-sm-6" key={i}>
+                <Member key={i} member={member} />
+              </div>
+            );
           })}
         </div>
       </div>
