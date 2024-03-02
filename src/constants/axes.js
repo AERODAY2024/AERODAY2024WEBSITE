@@ -1,7 +1,7 @@
 import { aeroday } from "../assets/images";
 import { committee } from "./";
 
-const aeonautiques = {
+const aeronautiques = {
   name: "EXPOSITIONS AÉONAUTIQUES",
   description:
     "Des Stands éblouissent les visiteurs par un mélange de créativité et d'enthousiasme des jeunes étudiants intéressés par l'aéronautique, enrichi par le savoir-faire des expérimentés. Parmi les différents projets exposés, on cite Le simulateur de vol monoplace à 360° crée par l'équipe Technique du Club Aerobotix INSAT et exposé lors de l'édition de 2014 celui-ci ressemble au célèbre simulateur de vol de Microsoft pour le monde 3D. Une fois terminé, il sera capable de simuler l'ensemble des mouvements d'avions.",
@@ -38,11 +38,11 @@ const ambassade = {
   description:
     "L'ambassade est l'axe de l'Aeroday qui vise à l'internationalisation de l'événement soit par l'invitation des conférenciers, participants ou média internationaux.",
   image: aeroday,
-  manager: committee.find((member) => member.name === "Zeyneb Bnabdallah"),
+  manager: committee.find((member) => member.name === "Rima Manai"),
 };
 
 export const axes = {
-  aeonautiques,
+  aeronautiques,
   aerospatiales,
   novices,
   airshow,
@@ -50,7 +50,7 @@ export const axes = {
 };
 
 export const axesArray = [
-  { ...aeonautiques, url: "/axes/aeonautiques" },
+  { ...aeronautiques, url: "/axes/aeronautiques" },
   { ...aerospatiales, url: "/axes/aerospatiales" },
   { ...novices, url: "/axes/novices" },
   { ...airshow, url: "/axes/airshow" },

@@ -17,8 +17,8 @@ export const navlinks = [
     url: "/axes",
     sublinks: [
       {
-        title: "EXPOSITIONS AÉONAUTIQUES",
-        url: "/axes/aeonautiques",
+        title: "EXPOSITIONS AÉRONAUTIQUES",
+        url: "/axes/aeronautiques",
       },
       {
         title: "EXPOSITIONS AÉROSPATIALES",

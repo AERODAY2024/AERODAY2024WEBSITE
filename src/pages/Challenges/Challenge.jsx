@@ -30,7 +30,7 @@ const Challenge = () => {
       <div className="mt-5 pt-5">
         <div className="col-lg-8 col-md-10 mx-auto">
           <div className="block">
-            <ChallengeCard challenges={currentChallenge} />
+            <ChallengeCard challenge={currentChallenge} />
           </div>
         </div>
       </div>
