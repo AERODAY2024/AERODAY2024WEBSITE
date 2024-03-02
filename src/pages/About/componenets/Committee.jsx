@@ -14,7 +14,14 @@ const Committee = () => {
           </div>
         </div>
         <div className="row">
-          {committee.map((member, i) => {
+          <div className="row d-flex justify-content-center">
+            {committee.slice(0, 3).map((member, i) => {
+              return <Member key={i} member={member} />;
+            })}
+          </div>
+        </div>
+        <div className="row">
+          {committee.slice(3).map((member, i) => {
             return <Member key={i} member={member} />;
           })}
         </div>
