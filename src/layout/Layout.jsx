@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Footer, NavBar } from "./components";
 import { Suspense } from "react";
-import { Loader } from "../components/UI";
+import { Loader, ScrollTop, SocialMedia } from "../components/UI";
 
 export const Layout = () => {
   return (
@@ -10,6 +10,8 @@ export const Layout = () => {
         <NavBar />
         <Outlet />
         <Footer />
+        <ScrollTop />
+        <SocialMedia />
       </Suspense>
     </>
   );

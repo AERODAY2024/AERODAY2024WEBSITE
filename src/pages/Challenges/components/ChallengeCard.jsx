@@ -6,7 +6,7 @@ const ChallengeCard = ({challenges}) => {
     </div>
     <div className="post-content">
       <div className="date">
-        <h4>20<span>May</span></h4>
+        <h4>21<span>May</span></h4>
       </div>
       <div className="post-title">
         <h3>{challenges.name}</h3>

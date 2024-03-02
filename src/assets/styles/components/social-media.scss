@@ -51,7 +51,7 @@
   height: 300px;
 }
 .floating-container:hover .floating-button {
-  box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+  box-shadow: 0 10px 25px gold;
   -webkit-transform: translatey(5px);
   transform: translatey(5px);
   -webkit-transition: all 0.3s;
@@ -73,7 +73,7 @@
   position: absolute;
   width: 65px;
   height: 65px;
-  background: #151515a9;
+  background: goldenrod;
   bottom: 0;
   border-radius: 50%;
   left: 0;

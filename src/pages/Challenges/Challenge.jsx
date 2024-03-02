@@ -26,11 +26,7 @@ const Challenge = () => {
 
   return (
     <>
-      <PageTitle
-        page={"CHALLENGE"}
-        title={currentChallenge.title}
-        bgImage={bgImage}
-      />
+      <PageTitle title={currentChallenge.name} bgImage={bgImage} />
       <div className="mt-5 pt-5">
         <div className="col-lg-8 col-md-10 mx-auto">
           <div className="block">

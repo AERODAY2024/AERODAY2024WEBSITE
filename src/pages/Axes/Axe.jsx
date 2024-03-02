@@ -26,7 +26,7 @@ const Axe = () => {
 
   return (
     <>
-      <PageTitle page={"AXES"} title={currentAxe.title} bgImage={bgImage} />
+      <PageTitle title={currentAxe.name} bgImage={bgImage} />
       <div className="mt-5 pt-5">
         <div className="col-lg-8 col-md-10 mx-auto">
           <div className="block">

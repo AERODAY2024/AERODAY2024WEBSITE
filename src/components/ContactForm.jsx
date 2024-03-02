@@ -42,12 +42,9 @@ const ContactForm = ({ className }) => {
         <div className="col-12">
           <div className="section-title">
             <h3>
-              Contactez <span className="alternate">Nous</span>
+              <span className="alternate">Toujours à votre disponibilté</span>
             </h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
-              velit.
-            </p>
+            <p>Nous sommes toujours prêts pour vous guider.</p>
           </div>
         </div>
       </div>

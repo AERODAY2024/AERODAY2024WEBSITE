@@ -6,18 +6,18 @@ const ChallengeHomeCard = ({ challenge }) => {
       <NavLink to={`${challenge.url}`}>
         <div className="blog-post">
           <div className="post-thumb">
-            <a href="news-single.html">
+            <NavLink to={challenge.url}>
               <img
                 src={challenge.image}
                 alt="post-image"
                 className="img-fluid"
               />
-            </a>
+            </NavLink>
           </div>
           <div className="post-content">
             <div className="date">
               <h4>
-                20<span>May</span>
+                21<span>May</span>
               </h4>
             </div>
             <div className="post-title">

@@ -6,19 +6,19 @@ const AxeItem = ({ axe }) => {
       <NavLink to={`${axe.url}`}>
         <div className="blog-post">
           <div className="post-thumb">
-            <a href="news-single.html">
+            <NavLink to={axe.url}>
               <img src={axe.image} alt="post-image" className="img-fluid" />
-            </a>
+            </NavLink>
           </div>
           <div className="post-content">
             <div className="date">
               <h4>
-                20<span>May</span>
+                21<span>May</span>
               </h4>
             </div>
             <div className="post-title">
               <h2>
-                <a href="news-single.html">{axe.name}</a>
+                <NavLink to={axe.url}>{axe.name} </NavLink>
               </h2>
             </div>
             <div className="post-meta">

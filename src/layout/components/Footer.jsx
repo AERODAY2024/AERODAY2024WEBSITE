@@ -1,10 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../../assets/styles/components/footer.scss";
-import {
-  faFacebook,
-  faLinkedin,
-  faSquareInstagram,
-} from "@fortawesome/free-brands-svg-icons";
 import { useNavigate } from "react-router-dom";
 import {
   faEnvelope,
@@ -47,7 +42,7 @@ const Footer = () => {
 
           <div className="col-lg-3">
             <div className="footer-widget">
-              <h5>restez en contact.</h5>
+              <h5>Nous sommes toujours à votre écoute.</h5>
               <ul className="footer-info">
                 <li>
                   <i>
@@ -56,33 +51,6 @@ const Footer = () => {
                   <span>Phone:</span>
                   +216 28 106 396
                 </li>
-                {/* <li className="list-inline-item">
-                  <a href="https://www.facebook.com/TunAeroday/">
-                    <span>
-                      <i>
-                        <FontAwesomeIcon icon={faFacebook} />
-                      </i>
-                    </span>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="https://www.instagram.com/tunisian_aeroday/">
-                    <span>
-                      <i>
-                        <FontAwesomeIcon icon={faSquareInstagram} />
-                      </i>
-                    </span>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="https://www.linkedin.com/company/tunisian-aeroday">
-                    <span>
-                      <i>
-                        <FontAwesomeIcon icon={faLinkedin} />
-                      </i>
-                    </span>
-                  </a>
-                </li> */}
               </ul>
             </div>
           </div>

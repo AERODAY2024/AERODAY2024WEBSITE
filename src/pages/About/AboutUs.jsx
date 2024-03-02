@@ -11,7 +11,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <PageTitle page={"ABOUT"} title={"ABOUT"} bgImage={bgImage} />
+      <PageTitle title={"ABOUT"} bgImage={bgImage} />
       <AboutSection />
       <Committee />
     </>

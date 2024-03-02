@@ -9,7 +9,7 @@ const Contact = () => {
 
   return (
     <>
-      <PageTitle page={"ABOUT"} title={"ABOUT"} bgImage={bgImage} />
+      <PageTitle title={"CONTACT US"} bgImage={bgImage} />
 
       <section className="section contact-form">
         <OurContacts />
