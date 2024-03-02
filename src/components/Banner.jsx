@@ -8,7 +8,11 @@ const BannerText = () => {
     <div className="hero-text">
       <h2>Rejoignez-nous</h2>
       <h1>Tunisian Aeroday 2024</h1>
-      <NavLink to={"/about-us"} className="about-link">
+      <NavLink
+        to={"/about-us"}
+        className="about-link"
+        style={{ color: "white" }}
+      >
         Lire la suite
       </NavLink>
       <Countdown />
