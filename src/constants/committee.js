@@ -33,22 +33,33 @@ const committee = [
     instagram: "https://www.instagram.com/sahnoun_houssem/",
     linkedin: "https://www.linkedin.com/in/sahnoun-houssem/",
   },
+
   {
-    name: "Nour Elhouda Labidi",
-    role: "Responsable Sponsoring",
-    image: committeeImages.nourHoudaImg,
+    name: "Rima Manai",
+    role: "Responsable Ambassadors",
+    image: committeeImages.rimaImg,
     facebook: "", // Replace with the actual Facebook link
     instagram: "", // Replace with the actual Instagram link
     linkedin: "", // Replace with the actual LinkedIn link
   },
   {
-    name: "Firas Hammami",
-    role: "Responsable Aerochallenge",
-    image: committeeImages.firasImg,
+    name: "Sirine Mzoughi",
+    role: "Responsable CAO",
+    image: committeeImages.sirineImg,
     facebook: "", // Replace with the actual Facebook link
     instagram: "", // Replace with the actual Instagram link
     linkedin: "", // Replace with the actual LinkedIn link
   },
+
+  {
+    name: "Khaled Fakhfakh",
+    role: "VP Technique",
+    image: committeeImages.khaledImg,
+    facebook: "", // Replace with the actual Facebook link
+    instagram: "", // Replace with the actual Instagram link
+    linkedin: "", // Replace with the actual LinkedIn link
+  },
+
   {
     name: "Yosr Elyazidi",
     role: "Responsable décoration",
@@ -65,22 +76,7 @@ const committee = [
     instagram: "", // Replace with the actual Instagram link
     linkedin: "", // Replace with the actual LinkedIn link
   },
-  {
-    name: "Khaled Fakhfakh",
-    role: "VP Technique",
-    image: committeeImages.khaledImg,
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
-  },
-  {
-    name: "Sirine Mzoughi",
-    role: "Responsable CAO",
-    image: committeeImages.sirineImg,
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
-  },
+
   {
     name: "J-a Hana",
     role: "Responsable Organisation",
@@ -98,9 +94,17 @@ const committee = [
     linkedin: "", // Replace with the actual LinkedIn link
   },
   {
-    name: "Amin Chabbah",
-    role: "Définir un pseudo",
-    image: committeeImages.aminChabbahImg,
+    name: "Nour Elhouda Labidi",
+    role: "Responsable Sponsoring",
+    image: committeeImages.nourHoudaImg,
+    facebook: "", // Replace with the actual Facebook link
+    instagram: "", // Replace with the actual Instagram link
+    linkedin: "", // Replace with the actual LinkedIn link
+  },
+  {
+    name: "Firas Hammami",
+    role: "Responsable Aerochallenge",
+    image: committeeImages.firasImg,
     facebook: "", // Replace with the actual Facebook link
     instagram: "", // Replace with the actual Instagram link
     linkedin: "", // Replace with the actual LinkedIn link
@@ -129,14 +133,7 @@ const committee = [
     instagram: "", // Replace with the actual Instagram link
     linkedin: "", // Replace with the actual LinkedIn link
   },
-  {
-    name: "Rawaa Knaissi",
-    role: "Définir un pseudo",
-    image: committeeImages.ranimImg, // Note: Assuming Rawaa Knaissi is Ranim Balti based on the provided images
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
-  },
+
   {
     name: "Ranim Balti",
     role: "Responsable Airshow",
@@ -153,14 +150,7 @@ const committee = [
     instagram: "", // Replace with the actual Instagram link
     linkedin: "", // Replace with the actual LinkedIn link
   },
-  {
-    name: "Rima Manai",
-    role: "Responsable Ambassadors",
-    image: committeeImages.rimaImg,
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
-  },
+
   {
     name: "Maher Mahmoudi",
     role: "Responsable Multimédia",
@@ -181,6 +171,14 @@ const committee = [
     name: "Mouadh Bel Haj Saleh",
     role: "Responsable Novices",
     image: committeeImages.mouadhImg,
+    facebook: "", // Replace with the actual Facebook link
+    instagram: "", // Replace with the actual Instagram link
+    linkedin: "", // Replace with the actual LinkedIn link
+  },
+  {
+    name: "Amin Chabbah",
+    role: "Définir un pseudo",
+    image: committeeImages.aminChabbahImg,
     facebook: "", // Replace with the actual Facebook link
     instagram: "", // Replace with the actual Instagram link
     linkedin: "", // Replace with the actual LinkedIn link
