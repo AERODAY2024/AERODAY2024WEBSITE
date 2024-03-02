@@ -13,22 +13,25 @@ const Committee = () => {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="row d-flex justify-content-center">
-            {committee.slice(0, 3).map((member, i) => {
-              return (
-                <div className="col-lg-3 col-md-4 col-sm-6" key={i}>
-                  <Member key={i} member={member} />
-                </div>
-              );
-            })}
+        <div className="row d-flex justify-content-center">
+          <div className="col-lg-3 col-md-4 col-sm-6 w-100">
+            <Member member={committee[0]} />
           </div>
+        </div>
+        <div className="row d-flex justify-content-center">
+          {committee.slice(1, 3).map((member, i) => {
+            return (
+              <div className="col-lg-3 col-md-4 col-sm-6" key={i}>
+                <Member member={member} />
+              </div>
+            );
+          })}
         </div>
         <div className="row">
           {committee.slice(3).map((member, i) => {
             return (
               <div className="col-lg-3 col-md-4 col-sm-6" key={i}>
-                <Member key={i} member={member} />
+                <Member member={member} />
               </div>
             );
           })}

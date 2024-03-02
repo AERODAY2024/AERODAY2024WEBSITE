@@ -1,3 +1,7 @@
+import { thumbnail } from "@cloudinary/url-gen/actions/resize";
+import { autoGravity } from "@cloudinary/url-gen/qualifiers/gravity";
+import { format, quality } from "@cloudinary/url-gen/actions/delivery";
+import { AdvancedImage } from "@cloudinary/react";
 import {
   faFacebook,
   faLinkedin,
@@ -5,12 +9,19 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
+import { cld } from "../../../config";
 
 const Member = ({ member }) => {
+  const memberImage = cld
+    .image(member.image)
+    .resize(thumbnail().gravity(autoGravity()))
+    .delivery(format("auto"))
+    .delivery(quality("auto:low"));
+
   return (
     <div className="trainer-item">
       <div className="ti-pic">
-        <img src={member.image} alt="" />
+        <AdvancedImage cldImg={memberImage} style={{ maxWidth: "100%" }} />
         <div className="ti-links">
           <NavLink to={member.facebook}>
             <i>
