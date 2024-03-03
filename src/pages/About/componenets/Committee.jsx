@@ -14,7 +14,7 @@ const Committee = () => {
           </div>
         </div>
         <div className="row d-flex justify-content-center">
-          <div className="col-lg-3 col-md-4 col-sm-6 w-100">
+          <div className="col-lg-3 col-md-4 col-sm-6">
             <Member member={committee[0]} />
           </div>
         </div>

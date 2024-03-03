@@ -32,7 +32,7 @@ const ChallengeCard = ({ challenge }) => {
             </div>
           </div>
           <div className="row d-flex justify-content-center">
-            <div className="col-lg-3  col-sm-2">
+            <div className="col-lg-6  col-sm-8">
               {<Member member={challenge.manager} />}
             </div>
           </div>
