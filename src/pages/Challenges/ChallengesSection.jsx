@@ -3,7 +3,7 @@ import { ChallengeHomeCard } from "./components";
 
 const ChallengesSection = () => {
   return (
-    <section className="news section">
+    <section className="news section" id="challenges-pannel">
       <div className="container">
         <div className="row">
           <div className="col-12">

@@ -1,3 +1,4 @@
+@import "../common/index.scss";
 /* Controls
 ---------------------------------------------------------------------- */
 .controls {
@@ -5,14 +6,20 @@
   margin-bottom: 40px;
 
   .btn {
+    font-size: x-large;
     background: transparent;
+    color: gold;
     border: none;
     cursor: pointer;
     font-family: $secondary-font;
     margin-right: 25px;
+    margin-left: 25px;
+
+    height: 300px;
 
     @include tablet {
       margin-right: 10px;
+      margin-left: 10px;
     }
 
     &.focus,
@@ -25,12 +32,15 @@
       color: $primary-color;
     }
   }
+
+  input[type="radio"] {
+    display: none;
+  }
 }
 
 .mixitup-control-active {
   color: $primary-color;
 }
-
 
 /* Container
 ---------------------------------------------------------------------- */
@@ -59,8 +69,8 @@
           height: 100%;
           background: $primary-color;
           opacity: 0;
-          transform: scale(.8);
-          transition: .3s ease;
+          transform: scale(0.8);
+          transition: 0.3s ease;
 
           a {
             display: block;
@@ -79,14 +89,13 @@
               color: $light;
               line-height: 55px;
               font-size: 1.25rem;
-
             }
           }
         }
 
         &:hover {
           .primary-overlay {
-            opacity: .85;
+            opacity: 0.85;
             transform: scale(1);
           }
         }
@@ -113,13 +122,13 @@
 
   /* 2 Columns */
   .mix {
-    width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+    width: calc(100% / 2 - (((2 - 1) * 1rem) / 2));
   }
 
   /* 3 Columns */
   @media screen and (min-width: 768px) {
     .mix {
-      width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+      width: calc(100% / 3 - (((3 - 1) * 1rem) / 3));
     }
   }
 
@@ -134,10 +143,9 @@
     }
 
     @media screen and (min-width: 1200px) {
-
       .mix,
       .gap {
-        width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
+        width: calc(100% / 4 - (((4 - 1) * 1rem) / 4));
       }
     }
   }
@@ -163,8 +171,8 @@
       height: 100%;
       background: $primary-color;
       opacity: 0;
-      transform: scale(.8);
-      transition: .3s ease;
+      transform: scale(0.8);
+      transition: 0.3s ease;
 
       a {
         display: block;
@@ -183,16 +191,65 @@
           color: $light;
           line-height: 55px;
           font-size: 1.25rem;
-
         }
       }
     }
 
     &:hover {
       .primary-overlay {
-        opacity: .85;
+        opacity: 0.85;
         transform: scale(1);
       }
     }
   }
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.content-box {
+  display: flex;
+  padding: 0;
+}
+
+.edition-card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-btns {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.action-btns button {
+  font-size: 15px;
+  font-weight: 500;
+  color: #002d36;
+  background-color: #99c6cf;
+  border-radius: 6px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.action-btns button:hover {
+  color: #ffffff;
+  background-color: #002d36;
 }

@@ -33,10 +33,17 @@ const AboutSection = () => {
               </div>
               <ul className="list-inline">
                 <li className="list-inline-item">
-                  <a className="btn btn-main-md">Nos Axes</a>
+                  <a className="btn btn-main-md" href="#axes-pannel">
+                    Nos Axes
+                  </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn btn-transparent-md">Nos Challenges</a>
+                  <a
+                    className="btn btn-transparent-md"
+                    href="#challenges-pannel"
+                  >
+                    Nos Challenges
+                  </a>
                 </li>
               </ul>
             </div>
@@ -47,4 +54,4 @@ const AboutSection = () => {
   );
 };
 
-export  {AboutSection};
+export { AboutSection };

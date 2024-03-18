@@ -1,7 +1,7 @@
 import "../../assets/styles/pages/home.scss";
 import { AboutSection, Banner, ContactForm } from "../../components";
 import { ChallengesSection } from "../Challenges";
-import { Map, Sponsors } from "./components";
+import { Map, PreviousEditions, Sponsors } from "./components";
 import { AxesSection } from "../Axes";
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
     <>
       <Banner />
       <AboutSection />
+      <PreviousEditions />
       <ChallengesSection />
       <AxesSection />
       <Sponsors />

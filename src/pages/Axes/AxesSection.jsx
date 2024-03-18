@@ -2,7 +2,7 @@ import { axesArray } from "../../constants";
 import { AxeItem } from "./components/AxeItem";
 const AxesSection = () => {
   return (
-    <section className="news section">
+    <section className="news section" id="axes-pannel">
       <div className="container">
         <div className="row">
           <div className="col-12">
