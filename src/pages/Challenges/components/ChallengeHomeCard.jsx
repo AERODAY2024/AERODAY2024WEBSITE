@@ -10,7 +10,7 @@ const ChallengeHomeCard = ({ challenge }) => {
               <img
                 src={challenge.image}
                 alt="post-image"
-                className="img-fluid"
+                className="img-fluid w-100"
               />
             </NavLink>
           </div>
@@ -21,7 +21,9 @@ const ChallengeHomeCard = ({ challenge }) => {
               </h4>
             </div>
             <div className="post-title">
-              <h2>{challenge.name}</h2>
+              <h2>
+                <NavLink to={challenge.url}>{challenge.name}</NavLink>
+              </h2>
             </div>
             <div className="post-meta">
               <ul className="list-inline">

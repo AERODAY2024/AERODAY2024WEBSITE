@@ -49,9 +49,9 @@
       }
     }
     .post-title {
-      h2 {
+      a {
         margin-top: 10px;
-        font-size: medium;
+        font-size: large;
         font-weight: 400;
         color: $black;
         &:hover {
@@ -59,8 +59,9 @@
         }
       }
       padding-bottom: 5px;
-      border-bottom: 1px solid $border-color;
+      // border-bottom: 1px solid $border-color;
       margin-bottom: 15px;
+      text-decoration: none;
     }
     .post-meta {
       ul {

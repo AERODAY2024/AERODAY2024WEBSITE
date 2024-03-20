@@ -1,5 +1,3 @@
-import { aeroday } from "../../../assets/images";
-
 const Gallery = ({ images }) => {
   return (
     <div className="gallery-wrapper row">

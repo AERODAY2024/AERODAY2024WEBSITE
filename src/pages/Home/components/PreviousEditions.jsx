@@ -5,7 +5,6 @@ import { prevEditionImages } from "../../../constants";
 import { prevEditionBg } from "../../../assets/images";
 
 const prevEditions = [2021, 2020, 2019, 2018, 2017];
-const ITEM_WIDTH = 100;
 
 const PreviousEditions = () => {
   const [edition, setEdition] = useState(2021);
@@ -14,16 +13,7 @@ const PreviousEditions = () => {
     setEdition(edition);
   };
 
-  const [scrollPosition, setScrollPosition] = useState(0);
   const containerRef = useRef();
-
-  const handleScroll = (scrollAmount) => {
-    const newScrollPosition = scrollPosition + scrollAmount;
-    setScrollPosition(newScrollPosition);
-    if (containerRef.current) {
-      containerRef.current.scrollLeft = newScrollPosition;
-    }
-  };
 
   return (
     <section className="section gallery">

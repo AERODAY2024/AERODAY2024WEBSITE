@@ -7,14 +7,14 @@ import Speaker from "./Speaker";
 const AboutUSComponent = () => {
   return (
     <>
-      <section class="section speakers bg-speaker overlay-lighter">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
+      <section className="section speakers bg-speaker overlay-lighter">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
               {/* Section Title*/}
-              <div class="section-title white">
+              <div className="section-title white">
                 <h3>
-                  Who <span class="alternate">Speaking?</span>
+                  Who <span className="alternate">Speaking?</span>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
@@ -23,7 +23,7 @@ const AboutUSComponent = () => {
               </div>
             </div>
           </div>
-          <div class="row">
+          <div className="row">
             {speakers.map((speakerInfo) => (
               <Speaker speakerInfo={speakerInfo} />
             ))}

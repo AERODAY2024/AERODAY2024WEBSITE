@@ -4,10 +4,13 @@ import { sponsors } from "../../../constants/sponsons";
 
 const Sponsors = () => {
   return (
-    <Carousel className="testimonial-section bg-sponsors spad">
+    <Carousel
+      pause={false}
+      className="testimonial-section bg-sponsors spad overlay-white"
+    >
       {sponsors.map((sponsor, i) => {
         return (
-          <Carousel.Item interval={1500} className="ts-item" key={i}>
+          <Carousel.Item interval={1000} className="ts-item" key={i}>
             <div className="sponsor-pic">
               <img src={sponsor.image} />
             </div>

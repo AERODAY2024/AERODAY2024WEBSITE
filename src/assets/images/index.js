@@ -10,6 +10,9 @@ import { sponsorsImages } from "./sponsors";
 import introBgImg from "./classes-title-bg.jpg";
 import { heroImages } from "./hero-slider";
 import { prevEditionBg } from "./prevEditions";
+import sponsorBg from "./sponsor-bg.png";
+import { challengesImages } from "./challenges";
+import { axesImages } from "./axes";
 
 export {
   aeroday,
@@ -24,4 +27,7 @@ export {
   introBgImg,
   heroImages,
   prevEditionBg,
+  sponsorBg,
+  challengesImages,
+  axesImages,
 };

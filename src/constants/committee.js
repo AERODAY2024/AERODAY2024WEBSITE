@@ -15,6 +15,14 @@ const committee = [
     instagram: "", // Replace with the actual Instagram link
     linkedin: "", // Replace with the actual LinkedIn link
   },
+  {
+    name: "Khaled Fakhfakh",
+    role: "VP Technique",
+    image: "AERODAY2024/committee/khaled_wlje13.jpg",
+    facebook: "", // Replace with the actual Facebook link
+    instagram: "", // Replace with the actual Instagram link
+    linkedin: "", // Replace with the actual LinkedIn link
+  },
 
   {
     name: "Yasmine Mannaï",
@@ -42,14 +50,6 @@ const committee = [
     linkedin: "", // Replace with the actual LinkedIn link
   },
 
-  {
-    name: "Khaled Fakhfakh",
-    role: "VP Technique",
-    image: "AERODAY2024/committee/khaled_wlje13.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
-  },
   {
     name: "Houssem Sahnoun",
     role: "Webmaster",
@@ -149,14 +149,14 @@ const committee = [
     linkedin: "", // Replace with the actual LinkedIn link
   },
 
-  {
-    name: "Maher Mahmoudi",
-    role: "Responsable Multimédia",
-    image: "AERODAY2024/committee/houssem_ufuyci.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
-  },
+  // {
+  //   name: "Maher Mahmoudi",
+  //   role: "Responsable Multimédia",
+  //   image: "AERODAY2024/committee/houssem_ufuyci.jpg",
+  //   facebook: "", // Replace with the actual Facebook link
+  //   instagram: "", // Replace with the actual Instagram link
+  //   linkedin: "", // Replace with the actual LinkedIn link
+  // },
   {
     name: "Meriem Slim",
     role: "Responsable Media-off",

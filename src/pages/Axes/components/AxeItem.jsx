@@ -7,7 +7,11 @@ const AxeItem = ({ axe }) => {
         <div className="blog-post">
           <div className="post-thumb">
             <NavLink to={axe.url}>
-              <img src={axe.image} alt="post-image" className="img-fluid" />
+              <img
+                src={axe.image}
+                alt="post-image"
+                className="img-fluid w-100"
+              />
             </NavLink>
           </div>
           <div className="post-content">
@@ -18,7 +22,7 @@ const AxeItem = ({ axe }) => {
             </div>
             <div className="post-title">
               <h2>
-                <NavLink to={axe.url}>{axe.name} </NavLink>
+                <NavLink to={axe.url}>{axe.name}</NavLink>
               </h2>
             </div>
             <div className="post-meta">
