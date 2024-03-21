@@ -28,7 +28,7 @@ const PrevEditions = () => {
 
   return (
     <>
-      <div className="prev-editions overlay-white">
+      <div className="prev-editions">
         <Carroussel
           cards={cards}
           height="500px"
