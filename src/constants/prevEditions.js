@@ -1,4 +1,11 @@
 import { aeroday, prevEditionBg } from "../assets/images";
+import {
+  images2017,
+  images2018,
+  images2019,
+  images2020,
+  images2021,
+} from "../assets/images/prevEditions";
 
 const prevEditions = [
   {
@@ -24,11 +31,11 @@ const prevEditions = [
 ];
 
 const prevEditionImages = {
-  2021: [aeroday, aeroday, aeroday, aeroday],
-  2020: [aeroday, aeroday, aeroday, aeroday, aeroday, aeroday],
-  2019: [aeroday, aeroday, aeroday, aeroday, aeroday],
-  2018: [aeroday, aeroday, aeroday, aeroday, aeroday, aeroday],
-  2017: [aeroday, aeroday, aeroday],
+  2021: images2021,
+  2020: images2020,
+  2019: images2019,
+  2018: images2018,
+  2017: images2017,
 };
 
 export { prevEditionImages, prevEditions };

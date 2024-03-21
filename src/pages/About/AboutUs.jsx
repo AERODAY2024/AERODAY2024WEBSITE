@@ -2,7 +2,7 @@ import "../../assets/styles/pages/home.scss";
 
 import "../../assets/styles/pages/about.scss";
 import { AboutSection, PageTitle } from "../../components";
-import { Committee } from "./componenets";
+import { Committee, VideoPlayer } from "./componenets";
 import { getRandomElement } from "../../utils";
 import { images } from "../../assets/images";
 
@@ -13,6 +13,7 @@ const AboutUs = () => {
     <>
       <PageTitle title={"ABOUT"} bgImage={bgImage} />
       <AboutSection />
+      <VideoPlayer />
       <Committee />
     </>
   );

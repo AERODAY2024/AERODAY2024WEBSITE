@@ -6,7 +6,11 @@ const Gallery = ({ images }) => {
           <div className="gallery-item col-lg-4 col-md-6" key={index}>
             <div className="image-block">
               <div className="image">
-                <img src={image} alt="gallery-image" className="img-fluid" />
+                <img
+                  src={image}
+                  alt="gallery-image"
+                  className="img-fluid w-100"
+                />
               </div>
             </div>
           </div>

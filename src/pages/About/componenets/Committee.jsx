@@ -3,7 +3,7 @@ import { committee } from "../../../constants";
 import { Member } from "./Member";
 const Committee = () => {
   return (
-    <section className="section speakers bg-speaker overlay-lighter">
+    <section className="section speakers bg-speaker overlay-lighter mt-5">
       <div className="container">
         <div className="row">
           <div className="col-12">

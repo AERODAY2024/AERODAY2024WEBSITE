@@ -11,4 +11,10 @@ const prevEditionBg = {
   edition2018,
   edition2017,
 };
+
 export { prevEditionBg };
+export * from "./2021";
+export * from "./2020";
+export * from "./2019";
+export * from "./2018";
+export * from "./2017";
