@@ -5,7 +5,7 @@ const AxeCard = ({ axe }) => {
     <>
       <article className="blog-post single">
         <div className="post-thumb">
-          <img src={axe.image} alt="post-image" className="img-fluid" />
+          <img src={axe.image} alt="post-image" className="img-fluid w-100" />
         </div>
         <div className="post-content">
           <div className="date">
@@ -14,7 +14,9 @@ const AxeCard = ({ axe }) => {
             </h4>
           </div>
           <div className="post-title">
-            <h3>{axe.name}</h3>
+            <h3>
+              <span className="alternate">{axe.name}</span>
+            </h3>
           </div>
           <div className="post-meta"></div>
           <div className="post-details">

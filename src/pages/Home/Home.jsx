@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <AboutSection />
+      <AboutSection showLinks={true} />
       <PrevEditions />
       <ChallengesSection />
       <AxesSection />

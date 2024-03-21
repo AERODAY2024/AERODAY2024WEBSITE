@@ -25,7 +25,7 @@ const ChallengeHomeCard = ({ challenge }) => {
                 <NavLink to={challenge.url}>{challenge.name}</NavLink>
               </h2>
             </div>
-            <div className="post-meta">
+            {/* <div className="post-meta">
               <ul className="list-inline">
                 <li className="list-inline-item">
                   <i className="fa fa-user-o"></i>
@@ -40,7 +40,7 @@ const ChallengeHomeCard = ({ challenge }) => {
                   <a href="#">30</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </NavLink>

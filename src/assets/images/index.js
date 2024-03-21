@@ -13,6 +13,7 @@ import { prevEditionBg } from "./prevEditions";
 import sponsorBg from "./sponsor-bg.png";
 import { challengesImages } from "./challenges";
 import { axesImages } from "./axes";
+import prevEditionBannerBg from "./bg-prev-editions.jpg";
 
 export {
   aeroday,
@@ -30,4 +31,5 @@ export {
   sponsorBg,
   challengesImages,
   axesImages,
+  prevEditionBannerBg,
 };

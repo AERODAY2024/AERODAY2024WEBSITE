@@ -1,6 +1,6 @@
 import { logo } from "../assets/images";
 
-const AboutSection = () => {
+const AboutSection = ({ showLinks }) => {
   return (
     <section className="section about">
       <div className="container">
@@ -31,21 +31,23 @@ const AboutSection = () => {
                   découverte de nouveaux potentiels dont disposent les jeunes.
                 </p>
               </div>
-              <ul className="list-inline">
-                <li className="list-inline-item">
-                  <a className="btn btn-main-md" href="#axes-pannel">
-                    Nos Axes
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a
-                    className="btn btn-transparent-md"
-                    href="#challenges-pannel"
-                  >
-                    Nos Challenges
-                  </a>
-                </li>
-              </ul>
+              {showLinks && (
+                <ul className="list-inline">
+                  <li className="list-inline-item">
+                    <a className="btn btn-main-md" href="#axes-pannel">
+                      Nos Axes
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a
+                      className="btn btn-transparent-md"
+                      href="#challenges-pannel"
+                    >
+                      Nos Challenges
+                    </a>
+                  </li>
+                </ul>
+              )}
             </div>
           </div>
         </div>

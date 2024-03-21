@@ -1,0 +1,32 @@
+.coming-soon-container {
+  background-image: url(/src/assets/images/auditorium.jpg);
+  //   background-position: top top;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+
+  .container {
+    width: 100%;
+    margin: 15% auto;
+  }
+  .col-4 {
+    width: 25%;
+    // float: left;
+  }
+
+  h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: whitesmoke;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      width: 1100px;
+    }
+    h1 {
+      font-size: 58px;
+    }
+  }
+}

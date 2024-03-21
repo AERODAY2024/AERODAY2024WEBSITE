@@ -17,10 +17,16 @@
   margin-bottom: 30px;
   .post-thumb {
     img {
+      max-height: 400px;
       @include tablet {
         width: 100%;
       }
     }
+  }
+  .wide-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .post-content {
     position: relative;
@@ -49,18 +55,24 @@
       }
     }
     .post-title {
-      a {
+      h2 {
         margin-top: 10px;
         font-size: large;
         font-weight: 400;
         color: $black;
+        text-align: center;
         &:hover {
           color: $primary-color;
         }
+
+        a {
+          font-size: large;
+          text-decoration: none;
+        }
       }
-      padding-bottom: 5px;
+      // padding-bottom: 5px;
       // border-bottom: 1px solid $border-color;
-      margin-bottom: 15px;
+      // margin-bottom: 15px;
       text-decoration: none;
     }
     .post-meta {
@@ -88,6 +100,10 @@
       padding-top: 35px;
       h3 {
         font-weight: 400;
+        font-size: x-large;
+      }
+      @include mobile-xs {
+        font-size: medium;
       }
       padding-bottom: 0;
       border: none;
@@ -415,6 +431,7 @@ ul.pagination {
       }
       img {
         width: 100%;
+        max-height: 400px;
       }
     }
     .post-contents {

@@ -61,13 +61,13 @@ const Countdown = () => {
       <div id="countdown">
         <ul>
           <li>
-            <span id="days">{days}</span>days
+            <span id="days">{days ? days : "-"}</span>days
           </li>
           <li>
-            <span id="hours">{hours}</span>Hours
+            <span id="hours">{hours ? hours : "-"}</span>Hours
           </li>
           <li>
-            <span id="minutes">{minutes}</span>Minutes
+            <span id="minutes">{minutes ? minutes : "-"}</span>Minutes
           </li>
           {/* <li>
             <span id="seconds">{seconds}</span>Seconds

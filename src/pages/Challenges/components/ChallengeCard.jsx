@@ -4,7 +4,7 @@ const ChallengeCard = ({ challenge }) => {
   return (
     <>
       <article className="blog-post single">
-        <div className="post-thumb">
+        <div className="post-thumb wide-img">
           <img src={challenge.image} alt="post-image" className="img-fluid" />
         </div>
         <div className="post-content">
@@ -14,7 +14,9 @@ const ChallengeCard = ({ challenge }) => {
             </h4>
           </div>
           <div className="post-title">
-            <h3>{challenge.name}</h3>
+            <h3>
+              <span className="alternate">{challenge.name}</span>
+            </h3>
           </div>
           <div className="post-meta"></div>
           <div className="post-details">

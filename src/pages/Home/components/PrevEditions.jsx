@@ -1,9 +1,9 @@
-// import "../../../assets/styles/components/Carousel3D.scss";
 import { useState } from "react";
 import { CardNews, Carroussel } from ".";
 import { prevEditionImages, prevEditions } from "../../../constants";
 import { Gallery } from "./";
 import { prevEditionBg } from "../../../assets/images";
+import "../../../assets/styles/components/prev-editions.scss";
 
 const PrevEditions = () => {
   const cards = prevEditions.map((edition) => {
@@ -27,17 +27,19 @@ const PrevEditions = () => {
   });
 
   return (
-    <div className="App">
-      <Carroussel
-        cards={cards}
-        height="500px"
-        width="90%"
-        margin="0 auto"
-        offset={2}
-        showArrows={false}
-        table={table}
-        goToSlide={goToSlide}
-      />
+    <>
+      <div className="prev-editions overlay-white">
+        <Carroussel
+          cards={cards}
+          height="500px"
+          width="90%"
+          margin="0 auto"
+          offset={2}
+          showArrows={false}
+          table={table}
+          goToSlide={goToSlide}
+        />
+      </div>
       {goToSlide != null && (
         <div className="mb-5">
           {/* <h1>
@@ -47,7 +49,7 @@ const PrevEditions = () => {
           <Gallery images={prevEditionImages[prevEditions[goToSlide].year]} />
         </div>
       )}
-    </div>
+    </>
   );
 };
 
