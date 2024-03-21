@@ -34,16 +34,16 @@ const AboutSection = ({ showLinks }) => {
               {showLinks && (
                 <ul className="list-inline">
                   <li className="list-inline-item">
-                    <a className="btn btn-main-md" href="#axes-pannel">
-                      Nos Axes
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
                     <a
                       className="btn btn-transparent-md"
                       href="#challenges-pannel"
                     >
                       Nos Challenges
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a className="btn btn-main-md" href="#axes-pannel">
+                      Nos Axes
                     </a>
                   </li>
                 </ul>

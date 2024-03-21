@@ -11,10 +11,10 @@ const ChallengesSection = () => {
               <h3>
                 Nos <span className="alternate">Challenges</span>
               </h3>
-              <p>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
                 eiusm tempor incididunt ut labore dolore
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
