@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <AboutSection showLinks={true} />
+      <AboutSection />
       <PrevEditions />
       <ChallengesSection />
       <AxesSection />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <ContactForm className={"my-5"} />
       <Map />
     </>

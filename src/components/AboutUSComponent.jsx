@@ -24,8 +24,8 @@ const AboutUSComponent = () => {
             </div>
           </div>
           <div className="row">
-            {speakers.map((speakerInfo) => (
-              <Speaker speakerInfo={speakerInfo} />
+            {speakers.map((speakerInfo, index) => (
+              <Speaker speakerInfo={speakerInfo} key={index} />
             ))}
           </div>
         </div>
