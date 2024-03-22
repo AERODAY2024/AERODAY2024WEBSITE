@@ -12,7 +12,7 @@ import styled from "@emotion/styled";
 const useStyles = styled({
   root: {
     maxWidth: 304,
-    width: 400,
+    width: 30,
     margin: "auto",
     boxShadow: "none",
     borderRadius: 30,
@@ -31,10 +31,10 @@ const CardNews = ({ editionData }) => {
 
   return (
     <Card
-      className={cx(styles.root)}
+      className={`${cx(styles.root)} prev-edition-card`}
       style={{
         background: `no-repeat center/100% url(${editionData.background})`,
-        height: "400px",
+        height: "450px",
       }}
     >
       <CardMedia

@@ -27,13 +27,13 @@ const PrevEditions = () => {
   });
 
   return (
-    <>
+    <div>
       <div className="prev-editions">
         <Carroussel
           cards={cards}
           height="500px"
-          width="90%"
-          margin="0 auto"
+          width="100%"
+          margin="0 "
           offset={2}
           showArrows={false}
           table={table}
@@ -49,7 +49,7 @@ const PrevEditions = () => {
           <Gallery images={prevEditionImages[prevEditions[goToSlide].year]} />
         </div>
       )}
-    </>
+    </div>
   );
 };
 

@@ -1,3 +1,49 @@
 .prev-editions {
   background: url(/src/assets/images/auditorium-opacity.png) no-repeat;
 }
+
+.prev-edition-card {
+  width: 350px;
+  @media (max-width: 900px) {
+    width: 250px;
+  }
+  @media (max-width: 500px) {
+    width: 200px;
+  }
+  @media (max-width: 420px) {
+    width: 150px;
+  }
+  @media (max-width: 320px) {
+    width: 100px;
+  }
+  @media (max-width: 250px) {
+    width: 80px;
+  }
+  @media (max-width: 200px) {
+    width: 60px;
+  }
+
+  h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 500px;
+    width: 350px;
+    @media (max-width: 900px) {
+      width: 250px;
+    }
+    @media (max-width: 500px) {
+      width: 200px;
+    }
+    @media (max-width: 420px) {
+      width: 150px;
+    }
+    @media (max-width: 320px) {
+      width: 100px;
+    }
+
+    @media (max-width: 290px) {
+      width: 55px;
+    }
+  }
+}
