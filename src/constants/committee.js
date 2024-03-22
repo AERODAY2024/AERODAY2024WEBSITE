@@ -6,50 +6,65 @@ const committee = [
     facebook: "https://www.facebook.com/manel.benhassine",
     instagram: "https://www.instagram.com/manel_benhassine/",
     linkedin: "https://www.linkedin.com/in/manel-benhassine/",
+    phoneNumber: "28106396",
+    aerodayAddress: "benhassine.manel@aeroday.tn",
+    personalEmail: "manel.benhassine@insat.ucar.tn",
   },
   {
     name: "Arij Aguel",
-    role: "Vp administrative",
+    role: "Vice Président administrative",
     image: "AERODAY2024/committee/arij_aatdti.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "50532842",
+    aerodayAddress: "aguel.arij@aeroday.tn",
+    personalEmail: "arij.aguel02@gmail.com",
   },
   {
     name: "Khaled Fakhfakh",
-    role: "VP Technique",
+    role: "Vice Président Technique",
     image: "AERODAY2024/committee/khaled_wlje13.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "58306959",
+    aerodayAddress: "fakhfakh.khaled@aeroday.tn",
+    personalEmail: "kfakhfakh2@gmail.com",
   },
-
   {
     name: "Yasmine Mannaï",
-    role: "SG",
+    role: "Secrétaire Générale",
     image: "AERODAY2024/committee/yasmine_gokvt3.jpg",
     facebook: "https://www.facebook.com/yasmine.mannai",
     instagram: "https://www.instagram.com/yasmine_mannai/",
     linkedin: "https://www.linkedin.com/in/yasmine-mannai/",
+    phoneNumber: "54464538",
+    aerodayAddress: "mannai.yasmine@aeroday.tn",
+    personalEmail: "yasminemannai23@gmail.com",
   },
-
   {
     name: "Rima Manai",
     role: "Responsable Ambassadors",
     image: "AERODAY2024/committee/rima_q8q4pa.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "92095416",
+    aerodayAddress: "manai.rima@aeroday.tn",
+    personalEmail: "rimamanai2003@gmail.com",
   },
   {
     name: "Sirine Mzoughi",
     role: "Responsable CAO",
     image: "AERODAY2024/committee/sirine_s42sl7.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "21546534",
+    aerodayAddress: "mzoughi.sirine@aeroday.tn",
+    personalEmail: "sirine.mzoughi199@gmail.com",
   },
-
   {
     name: "Houssem Sahnoun",
     role: "Webmaster",
@@ -57,130 +72,172 @@ const committee = [
     facebook: "https://www.facebook.com/sahnoun.houssem",
     instagram: "https://www.instagram.com/sahnoun_houssem/",
     linkedin: "https://www.linkedin.com/in/sahnoun-houssem/",
+    phoneNumber: "51067304",
+    aerodayAddress: "sahnoun.houssem@aeroday.tn",
+    personalEmail: "sahnoun.houssem05@gmail.com",
   },
   {
     name: "Yosr Elyazidi",
     role: "Responsable décoration",
     image: "AERODAY2024/committee/yosr_aofs2c.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "94612076",
+    aerodayAddress: "yazidi.yosr@aeroday.tn",
+    personalEmail: "yosser.yazidi@insat.ucar.tn",
   },
   {
     name: "Amine Romdhane",
     role: "Responsable Aerospace",
     image: "AERODAY2024/committee/amine-romdhane_blpcte.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "56271759",
+    aerodayAddress: "romdhane.amine@aeroday.tn",
+    personalEmail: "amine.romdhane.insat@gmail.com",
   },
-
   {
-    name: "Jaziri Hana",
+    name: "Hana Jaziri",
     role: "Responsable Organisation",
     image: "AERODAY2024/committee/hana_os1stq.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "51070452",
+    personalEmail: "jazirihana1429@gmail.com",
   },
-  // {
-  //   name: "Omar Idoudi",
-  //   role: "Responsable Media On",
-  //   image: "AERODAY2024/committee/houssem_ufuyci.jpg",
-  //   facebook: "", // Replace with the actual Facebook link
-  //   instagram: "", // Replace with the actual Instagram link
-  //   linkedin: "", // Replace with the actual LinkedIn link
-  // },
   {
     name: "Nour Elhouda Labidi",
     role: "Responsable Sponsoring",
     image: "AERODAY2024/committee/nour-houda_qsc4jv.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "95864411",
+    personalEmail: "labidinour29@gmail.com",
   },
   {
     name: "Firas Hammami",
     role: "Responsable Aerochallenge",
     image: "AERODAY2024/committee/firas_bcx64d.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "96917998",
+    aerodayAddress: "hammami.firas@aeroday.tn",
+    personalEmail: "firas.hammami@insat.ucar.tn",
   },
   {
     name: "Yessin Allouch",
     role: "Trésorier",
     image: "AERODAY2024/committee/yacine_af4lpf.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "20882902",
+    aerodayAddress: "allouch.yessin@aeroday.tn",
+    personalEmail: "yassine.allouch2004@gmail.com",
   },
   {
     name: "Medrayen Kamel",
     role: "Responsable Aéromodélisme",
     image: "AERODAY2024/committee/rayen_gwthdm.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "53338818",
+    aerodayAddress: "elkamel.mohamedrayen@aeroday.tn",
+    personalEmail: "medrayenkamel@gmail.com",
   },
   {
     name: "Nour Trabelsi",
     role: "Responsable Exposition",
     image: "AERODAY2024/committee/nour-trabelsi_kud85f.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "22096132",
+    aerodayAddress: "trabelsi.nour@aeroday.tn",
+    personalEmail: "Nour.trabelsi@insat.ucar.tn",
   },
-
   {
     name: "Ranim Balti",
     role: "Responsable Airshow",
     image: "AERODAY2024/committee/ranim_tgvgsd.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "58707371",
+    aerodayAddress: "balti.ranim@aeroday.tn",
+    personalEmail: "baltiranim@gmail.com",
   },
   {
     name: "Zeyneb Bnabdallah",
     role: "Responsable Aeroentrepreneur",
     image: "AERODAY2024/committee/zeyneb_ah1ao8.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "97142939 / 93906192",
+    aerodayAddress: "benabdallah.zeyneb@aeroday.tn",
+    personalEmail: "bnabdallahzeyneb@gmail.com",
   },
-
-  // {
-  //   name: "Maher Mahmoudi",
-  //   role: "Responsable Multimédia",
-  //   image: "AERODAY2024/committee/houssem_ufuyci.jpg",
-  //   facebook: "", // Replace with the actual Facebook link
-  //   instagram: "", // Replace with the actual Instagram link
-  //   linkedin: "", // Replace with the actual LinkedIn link
-  // },
   {
     name: "Meriem Slim",
     role: "Responsable Media-off",
     image: "AERODAY2024/committee/meriem_oaqwdr.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "23884059",
+    aerodayAddress: "slim.meriem@aeroday.tn",
+    personalEmail: "slimmeryem75@gmail.com",
   },
   {
     name: "Mouadh Bel Haj Saleh",
     role: "Responsable Novices",
     image: "AERODAY2024/committee/mouadh_fmlqta.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "99735434",
+    aerodayAddress: "benhajsalah.mouadh@aeroday.tn",
+    personalEmail: "mouadh.bhs@gmail.com",
   },
   {
     name: "Amin Chabbah",
-    role: "Définir un pseudo",
+    role: "Ressource Humaine",
     image: "AERODAY2024/committee/amin-chabbah_x5m0qq.jpg",
-    facebook: "", // Replace with the actual Facebook link
-    instagram: "", // Replace with the actual Instagram link
-    linkedin: "", // Replace with the actual LinkedIn link
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "", // Phone number not provided in the Excel data
+    aerodayAddress: "",
+    personalEmail: "chabbah.amin@aeroday.tn",
   },
+  // {
+  //   name: "Mohamed Omar Aidoudi",
+  //   role: "Responsable Media On",
+  //   image: "", // Image not provided
+  //   facebook: "",
+  //   instagram: "",
+  //   linkedin: "",
+  //   phoneNumber: "94923635",
+  //   aerodayAddress: "idoudi.omar@aeroday.tn",
+  //   personalEmail: "idoudimedomar@gmail.com",
+  // },
+  // {
+  //   name: "Maher Mahmoudi",
+  //   role: "Responsable Multimédia",
+  //   image: "", // Image not provided
+  //   facebook: "",
+  //   instagram: "",
+  //   linkedin: "",
+  //   phoneNumber: "22214729",
+  //   personalEmail: "1maher.mahmoudi1@gmail.com"
+  // }
 ];
 
 export { committee };

@@ -10,7 +10,8 @@ const AxeCard = ({ axe }) => {
         <div className="post-content">
           <div className="date">
             <h4>
-              21<span>May</span>
+              {axe.date.day}
+              <span>{axe.date.month}</span>
             </h4>
           </div>
           <div className="post-title">

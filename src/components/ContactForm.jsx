@@ -21,7 +21,6 @@ const ContactForm = ({ className }) => {
     try {
       const colRef = collection(db, "ContactRequests");
       const docRef = await addDoc(colRef, contactRequest);
-      console.log("Document written with ID: ", docRef.id);
       clearForm();
     } catch (err) {
       console.log(err.message);

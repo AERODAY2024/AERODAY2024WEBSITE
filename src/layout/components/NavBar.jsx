@@ -31,8 +31,6 @@ const NavBar = () => {
   }, [dropdownIsOpen]);
 
   const handleDropdownClick = (index) => {
-    console.log("dropdownIsOpen: ", dropdownIsOpen);
-    console.log("index: ", index);
     setDropdownIsOpen((dropdownIsOpen) =>
       dropdownIsOpen === index ? 0 : index
     );
