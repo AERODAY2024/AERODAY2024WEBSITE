@@ -42,6 +42,7 @@
 
 .trainer-item .ti-pic img {
   max-width: 100%;
+  min-height: 100%;
 }
 
 .trainer-item .ti-pic .ti-links {
@@ -123,4 +124,47 @@
   color: #ffffff;
   font-family: "Nunito Sans", sans-serif;
   margin-right: 30px;
+}
+
+.cta-section {
+  background: -o-linear-gradient(45deg, #e16521, #d1ae4a);
+  background: linear-gradient(45deg, #e16521, #d1ae4a);
+  padding: 38px 0;
+}
+
+.cta-section .cta-text {
+  float: left;
+  width: 100%;
+}
+
+.cta-section .cta-text h3 {
+  color: #ffffff;
+  font-size: medium;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.cta-section .cta-text p {
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: small;
+}
+
+.cta-section .primary-btn.cta-btn {
+  float: right;
+  border-color: #ffffff;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(100%, #ffffff),
+      to(#ffffff)
+    ),
+    -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(0%, #ffffff));
+  background-image: -o-linear-gradient(left, #ffffff 100%, #ffffff 100%),
+    -o-linear-gradient(left, #ffffff 0%, #ffffff 0%);
+  background-image: linear-gradient(to right, #ffffff 100%, #ffffff 100%),
+    linear-gradient(to right, #ffffff 0%, #ffffff 0%);
+  margin-top: 14px;
+  margin-left: 10px;
 }

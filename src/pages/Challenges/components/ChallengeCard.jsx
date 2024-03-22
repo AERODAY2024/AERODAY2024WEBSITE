@@ -35,7 +35,7 @@ const ChallengeCard = ({ challenge }) => {
           </div>
           <div className="row d-flex justify-content-center">
             <div className="col-lg-6  col-sm-8">
-              {<Member member={challenge.manager} />}
+              {<Member member={challenge.manager} icnludeContacts={true} />}
             </div>
           </div>
         </div>
