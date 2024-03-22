@@ -1,7 +1,11 @@
 import "../../assets/styles/pages/home.scss";
 import { AboutSection, Banner, ContactForm } from "../../components";
 import { ChallengesSection } from "../Challenges";
-import { Map, PrevEditions, Sponsors } from "./components";
+import {
+  Map,
+  PrevEditions,
+  //  Sponsors
+} from "./components";
 import { AxesSection } from "../Axes";
 
 const Home = () => {
