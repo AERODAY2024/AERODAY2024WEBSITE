@@ -11,6 +11,7 @@ const Gallery = ({ images }) => {
                     src={image}
                     alt="gallery-image"
                     className="img-fluid w-100"
+                    // style={{ maxHeight: "300px" }}
                   />
                 </div>
               </div>

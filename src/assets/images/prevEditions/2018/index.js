@@ -1,8 +1,8 @@
 import img1 from "./1710971754726.jpeg";
 import img2 from "./1710971754969.jpeg";
 import img3 from "./1710971760806.jpeg";
-import img4 from "./43464247_2213107062265451_2856889445540957892_n.jpg";
+import img5 from "./1711212857958.jpeg";
 
-const images2018 = [img1, img2, img3, img4];
+const images2018 = [img1, img5, img2, img3];
 
 export { images2018 };
