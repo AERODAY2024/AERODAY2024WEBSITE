@@ -156,7 +156,7 @@ const committee = [
   {
     name: "Nour Trabelsi",
     role: "Responsable Exposition",
-    image: "AERODAY2024/committee-edited/Nour_Exposition1_atj5rc.jpg",
+    image: "AERODAY2024/committee-edited/Nour_expo_vtjbu8.jpg",
     facebook: "",
     instagram: "",
     linkedin: "",
