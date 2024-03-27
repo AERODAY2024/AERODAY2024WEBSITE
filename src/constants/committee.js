@@ -209,6 +209,16 @@ const committee = [
     personalEmail: "mouadh.bhs@gmail.com",
   },
   {
+    name: "Maher Mahmoudi",
+    role: "Responsable Multimédia",
+    image: "AERODAY2024/committee-edited/maher_1_1_qwaf97.png",
+    facebook: "",
+    instagram: "",
+    linkedin: "",
+    phoneNumber: "22214729",
+    personalEmail: "1maher.mahmoudi1@gmail.com",
+  },
+  {
     name: "Amin Chabbah",
     role: "Ressource Humaine",
     image: "AERODAY2024/committee-edited/Amine_RH_1_jomsfi.jpg",
@@ -219,27 +229,6 @@ const committee = [
     aerodayAddress: "",
     personalEmail: "chabbah.amin@aeroday.tn",
   },
-  // {
-  //   name: "Mohamed Omar Aidoudi",
-  //   role: "Responsable Media On",
-  //   image: "", // Image not provided
-  //   facebook: "",
-  //   instagram: "",
-  //   linkedin: "",
-  //   phoneNumber: "94923635",
-  //   aerodayAddress: "idoudi.omar@aeroday.tn",
-  //   personalEmail: "idoudimedomar@gmail.com",
-  // },
-  // {
-  //   name: "Maher Mahmoudi",
-  //   role: "Responsable Multimédia",
-  //   image: "", // Image not provided
-  //   facebook: "",
-  //   instagram: "",
-  //   linkedin: "",
-  //   phoneNumber: "22214729",
-  //   personalEmail: "1maher.mahmoudi1@gmail.com"
-  // }
 ];
 
 export { committee };
