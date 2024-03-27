@@ -21,7 +21,7 @@ const Member = ({ member, icnludeContacts }) => {
         <div className="ti-pic">
           <AdvancedImage cldImg={memberImage} style={{ maxWidth: "100%" }} />
           <div className="ti-links">
-            <NavLink to={member.facebook}>
+            <NavLink to={member.facebook} target="_blank">
               <i>
                 <FontAwesomeIcon icon={faFacebook} />
               </i>

@@ -70,7 +70,7 @@ const committee = [
     name: "Houssem Sahnoun",
     role: "Webmaster",
     image: "AERODAY2024/committee-edited/Houssem_WebMaster_seem2n.jpg",
-    facebook: "https://www.facebook.com/sahnoun.houssem",
+    facebook: "https://www.facebook.com/houssem.sahnoun.35/",
     // instagram: "https://www.instagram.com/sahnoun_houssem/",
     // linkedin: "https://www.linkedin.com/in/sahnoun-houssem/",
     phoneNumber: "51067304",
