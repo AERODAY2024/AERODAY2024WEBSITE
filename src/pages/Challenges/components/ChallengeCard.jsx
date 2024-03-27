@@ -21,7 +21,8 @@ const ChallengeCard = ({ challenge }) => {
           </div>
           <div className="post-meta"></div>
           <div className="post-details">
-            <p>{challenge.description}</p>
+            {/* <p>{challenge.description}</p> */}
+            <p dangerouslySetInnerHTML={{ __html: challenge.description }}></p>
           </div>
         </div>
       </article>

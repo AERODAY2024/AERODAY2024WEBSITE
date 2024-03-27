@@ -21,7 +21,8 @@ const AxeCard = ({ axe }) => {
           </div>
           <div className="post-meta"></div>
           <div className="post-details">
-            <p>{axe.description}</p>
+            {/* <p>{axe.description}</p> */}
+            <p dangerouslySetInnerHTML={{ __html: axe.description }}></p>
           </div>
         </div>
       </article>
