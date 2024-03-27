@@ -2,11 +2,7 @@ import { thumbnail } from "@cloudinary/url-gen/actions/resize";
 import { autoGravity } from "@cloudinary/url-gen/qualifiers/gravity";
 import { format, quality } from "@cloudinary/url-gen/actions/delivery";
 import { AdvancedImage } from "@cloudinary/react";
-import {
-  faFacebook,
-  faLinkedin,
-  faSquareInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
 import { cld } from "../../../config";
@@ -30,7 +26,7 @@ const Member = ({ member, icnludeContacts }) => {
                 <FontAwesomeIcon icon={faFacebook} />
               </i>
             </NavLink>
-            <NavLink to={member.instagram}>
+            {/* <NavLink to={member.instagram}>
               <i>
                 <FontAwesomeIcon icon={faSquareInstagram} />
               </i>
@@ -39,7 +35,7 @@ const Member = ({ member, icnludeContacts }) => {
               <i>
                 <FontAwesomeIcon icon={faLinkedin} />
               </i>
-            </NavLink>
+            </NavLink> */}
           </div>
           <div className="trainer-text">
             <h5>
