@@ -14,6 +14,7 @@ const AboutUs = () => {
       <PageTitle title={"ABOUT"} bgImage={bgImage} />
       <AboutSection />
       <Info />
+      <div className="mb-5"></div>
       <VideoPlayer />
       <Committee />
     </>
