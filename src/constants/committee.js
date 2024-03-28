@@ -66,17 +66,7 @@ const committee = [
     aerodayAddress: "mzoughi.sirine@aeroday.tn",
     personalEmail: "sirine.mzoughi199@gmail.com",
   },
-  {
-    name: "Houssem Sahnoun",
-    role: "Webmaster",
-    image: "AERODAY2024/committee-edited/Houssem_WebMaster_seem2n.jpg",
-    facebook: "https://www.facebook.com/houssem.sahnoun.35/",
-    // instagram: "https://www.instagram.com/sahnoun_houssem/",
-    // linkedin: "https://www.linkedin.com/in/sahnoun-houssem/",
-    phoneNumber: "51067304",
-    aerodayAddress: "sahnoun.houssem@aeroday.tn",
-    personalEmail: "sahnoun.houssem05@gmail.com",
-  },
+
   {
     name: "Rima Manai",
     role: "Responsable Ambassadors",
@@ -111,6 +101,17 @@ const committee = [
     personalEmail: "amine.romdhane.insat@gmail.com",
   },
   {
+    name: "Houssem Sahnoun",
+    role: "Webmaster",
+    image: "AERODAY2024/committee-edited/Houssem_WebMaster_seem2n.jpg",
+    facebook: "https://www.facebook.com/houssem.sahnoun.35/",
+    // instagram: "https://www.instagram.com/sahnoun_houssem/",
+    // linkedin: "https://www.linkedin.com/in/sahnoun-houssem/",
+    phoneNumber: "51067304",
+    aerodayAddress: "sahnoun.houssem@aeroday.tn",
+    personalEmail: "sahnoun.houssem05@gmail.com",
+  },
+  {
     name: "Hana Jaziri",
     role: "Responsable Organisation",
     image: "AERODAY2024/committee-edited/Hana_Deco1_c3tryi.jpg",
@@ -122,7 +123,7 @@ const committee = [
   },
   {
     name: "Nour Elhouda Labidi",
-    role: "Responsable Sponsoring",
+    role: "Responsable Participation",
     image: "AERODAY2024/committee-edited/Nour_Sponsoring__kxzf7x.jpg",
     facebook: "https://www.facebook.com/nourelhouda.labidi.98",
     // instagram: "",
@@ -133,7 +134,7 @@ const committee = [
   {
     name: "Firas Hammami",
     role: "Responsable Aerochallenge",
-    image: "AERODAY2024/committee-edited/Firas_AeroCallenge_j9p9ps.jpg",
+    image: "AERODAY2024/committee-edited/firas_Aerochallenge_1_dxw7qt.jpg",
     facebook: "https://www.facebook.com/firas.hammami.7169",
     // instagram: "",
     // linkedin: "",
