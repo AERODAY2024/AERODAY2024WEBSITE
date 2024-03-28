@@ -1,6 +1,6 @@
 import { addDoc, collection } from "firebase/firestore";
 import { useState } from "react";
-import { db } from "./index";
+import { db } from "../config";
 
 const ContactForm = ({ className }) => {
   const [isLoading, setIsLoading] = useState(false);

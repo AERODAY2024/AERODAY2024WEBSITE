@@ -5,12 +5,12 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDh7c85Y0gRlOLnnZK6ur3T_1Yi3NVDTxI",
-  authDomain: "aeroday2024website-902f9.firebaseapp.com",
-  projectId: "aeroday2024website-902f9",
-  storageBucket: "aeroday2024website-902f9.appspot.com",
-  messagingSenderId: "983947344245",
-  appId: "1:983947344245:web:af0889c26c18f84260fb3c",
+  apiKey: "AIzaSyAbybyKmPDRs_ZRt2Gb-mTA1yLGt0qXRsQ",
+  authDomain: "aeroday2024-b4d57.firebaseapp.com",
+  projectId: "aeroday2024-b4d57",
+  storageBucket: "aeroday2024-b4d57.appspot.com",
+  messagingSenderId: "794131369199",
+  appId: "1:794131369199:web:8b74c5398fa82a7c419f1a",
 };
 
 initializeApp(firebaseConfig);
