@@ -18,6 +18,7 @@
   .post-thumb {
     img {
       max-height: 400px;
+      object-fit: cover;
       @include tablet {
         width: 100%;
       }
