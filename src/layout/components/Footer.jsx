@@ -28,14 +28,7 @@ const Footer = () => {
                 </a>
               </div>
               <p>
-                {`Tunisian Aeroday est l'unique journée nationale consacrée
-                entièrement à l'Aéronautique en Tunisie, elle est fondée par le
-                club Aerobotix insat en collaboration avec l'association des
-                techniques de robotique (ATR). Cette journée est basée sur
-                plusieurs axes et sur des différents challenges et elle opte
-                pour la vulgarisation du domaine aéronautique chez le grand
-                public ainsi que sur la découverte de nouveaux potentiels dont
-                disposent les jeunes.`}
+                {`Tunisian Aeroday est la seule journée nationale entièrement consacrée à l'aéronautique en Tunisie. Fondée par le club Aerobotix de l'INSAT en collaboration avec l'Association des Techniques de Robotique (ATR), cette journée repose sur plusieurs axes et différents défis. Son objectif principal est de vulgariser le domaine de l'aéronautique auprès du grand public et de découvrir les nouveaux potentiels dont disposent les jeunes.`}
               </p>
             </div>
           </div>
