@@ -15,12 +15,14 @@ const AxeItem = ({ axe }) => {
             </NavLink>
           </div>
           <div className="post-content">
-            <div className="date">
-              <h4>
-                {axe.date.day}
-                <span>{axe.date.month}</span>
-              </h4>
-            </div>
+            {axe.date && (
+              <div className="date">
+                <h4>
+                  {axe.date.day}
+                  <span>{axe.date.month}</span>
+                </h4>
+              </div>
+            )}
             <div className="post-title">
               <h2>
                 <NavLink to={axe.url}>{axe.name}</NavLink>

@@ -52,6 +52,11 @@ const Countdown = () => {
       clearInterval(interval);
     };
   }, []);
+  return (
+    <div className="countdown-container">
+      <h1 id="headline">Coming soon!</h1>
+    </div>
+  );
 
   return (
     <div className="countdown-container">

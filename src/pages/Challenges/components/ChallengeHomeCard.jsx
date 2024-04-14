@@ -15,12 +15,14 @@ const ChallengeHomeCard = ({ challenge }) => {
             </NavLink>
           </div>
           <div className="post-content">
-            <div className="date">
-              <h4>
-                {challenge.date.day}
-                <span>{challenge.date.month}</span>
-              </h4>
-            </div>
+            {challenge.date && (
+              <div className="date">
+                <h4>
+                  {challenge.date.day}
+                  <span>{challenge.date.month}</span>
+                </h4>
+              </div>
+            )}
             <div className="post-title">
               <h2>
                 <NavLink to={challenge.url}>{challenge.name}</NavLink>

@@ -56,7 +56,8 @@ const Member = ({ member, icnludeContacts }) => {
                     n'hésitez pas à nous contacter
                   </h3>
                   <p>
-                    Téléphone: {member.phoneNumber} <br />
+                    {member.phoneNumber && `Téléphone: ${member.phoneNumber}`}{" "}
+                    <br />
                     Email: {member.aerodayAddress}
                   </p>
                 </div>

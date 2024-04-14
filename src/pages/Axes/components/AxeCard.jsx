@@ -8,12 +8,14 @@ const AxeCard = ({ axe }) => {
           <img src={axe.image} alt="post-image" className="img-fluid w-100" />
         </div>
         <div className="post-content">
-          <div className="date">
-            <h4>
-              {axe.date.day}
-              <span>{axe.date.month}</span>
-            </h4>
-          </div>
+          {axe.date && (
+            <div className="date">
+              <h4>
+                {axe.date.day}
+                <span>{axe.date.month}</span>
+              </h4>
+            </div>
+          )}
           <div className="post-title">
             <h3>
               <span className="alternate">{axe.name}</span>

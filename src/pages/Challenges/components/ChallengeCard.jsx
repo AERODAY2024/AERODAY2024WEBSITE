@@ -5,15 +5,21 @@ const ChallengeCard = ({ challenge }) => {
     <>
       <article className="blog-post single">
         <div className="post-thumb wide-img">
-          <img src={challenge.image} alt="post-image" className="img-fluid" />
+          <img
+            src={challenge.image}
+            alt="post-image"
+            className="img-fluid w-100"
+          />
         </div>
         <div className="post-content">
-          <div className="date">
-            <h4>
-              {challenge.date.day}
-              <span>{challenge.date.month}</span>
-            </h4>
-          </div>
+          {challenge.date && (
+            <div className="date">
+              <h4>
+                {challenge.date.day}
+                <span>{challenge.date.month}</span>
+              </h4>
+            </div>
+          )}
           <div className="post-title">
             <h3>
               <span className="alternate">{challenge.name}</span>
