@@ -54,7 +54,9 @@ const Countdown = () => {
   }, []);
   return (
     <div className="countdown-container">
-      <h1 id="headline">Coming soon!</h1>
+      <h1 id="headline">
+        12<sup>ème</sup> édition de l'Aeroday
+      </h1>
     </div>
   );
 

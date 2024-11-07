@@ -21,11 +21,11 @@ const Member = ({ member, icnludeContacts }) => {
         <div className="ti-pic">
           <AdvancedImage cldImg={memberImage} style={{ maxWidth: "100%" }} />
           <div className="ti-links">
-            <NavLink to={member.facebook} target="_blank">
+            {/* <NavLink to={member.facebook} target="_blank">
               <i>
                 <FontAwesomeIcon icon={faFacebook} />
               </i>
-            </NavLink>
+            </NavLink> */}
             {/* <NavLink to={member.instagram}>
               <i>
                 <FontAwesomeIcon icon={faSquareInstagram} />
@@ -40,6 +40,8 @@ const Member = ({ member, icnludeContacts }) => {
           <div className="trainer-text">
             <h5>
               {member.name} <span>- {member.role}</span>
+              <br />
+              <span>Téléphone: {member.phoneNumber}</span>
             </h5>
           </div>
         </div>

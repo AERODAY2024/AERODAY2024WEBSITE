@@ -35,6 +35,10 @@
     font-weight: normal;
     letter-spacing: 0.125rem;
     text-transform: uppercase;
+
+    sup {
+      text-transform: none;
+    }
   }
 
   li {
