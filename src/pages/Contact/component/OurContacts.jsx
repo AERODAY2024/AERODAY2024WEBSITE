@@ -45,7 +45,7 @@ const OurContacts = () => {
           </span>
           <div className="ts-service-box-content">
             <h4>Call Us</h4>
-            <p>+216 28 106 396</p>
+            <p>+216 94 384 001</p>
           </div>
         </div>
       </div>

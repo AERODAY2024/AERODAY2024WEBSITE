@@ -1,5 +1,11 @@
 import "../../assets/styles/pages/home.scss";
-import { AboutSection, Banner, ContactForm, Info } from "../../components";
+import {
+  AboutSection,
+  Banner,
+  ContactForm,
+  Info,
+  Teaser,
+} from "../../components";
 import { ChallengesSection } from "../Challenges";
 import {
   Map,
@@ -14,6 +20,7 @@ const Home = () => {
       <Banner />
       <AboutSection showLinks={true} />
       <Info />
+      {/* <Teaser /> */}
       <PrevEditions />
       <ChallengesSection />
       <AxesSection />

@@ -1,5 +1,5 @@
 import aeroday from "./aeroday.jpg";
-import logo from "./logo.jpg";
+import logo from "./pdp.png";
 import drone from "./drone.png";
 import chronoWings from "./chrono_wings.png";
 import logoWithoutBackground from "./logo.png";

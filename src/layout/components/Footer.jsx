@@ -42,7 +42,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faPhone} />
                   </i>
                   <span>Phone:</span>
-                  +216 28 106 396
+                  +216 94 384 001
                 </li>
               </ul>
             </div>
