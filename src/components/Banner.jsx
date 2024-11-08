@@ -7,7 +7,13 @@ const BannerText = () => {
   return (
     <div className="hero-text">
       <h2>Rejoignez-nous</h2>
-      <h1>Tunisian Aeroday 2025</h1>
+      <h1
+        style={{
+          fontSize: "2.5rem",
+        }}
+      >
+        Tunisian Aeroday 2025
+      </h1>
       <NavLink
         to={"/about-us"}
         className="about-link"

@@ -20,7 +20,7 @@ const Home = () => {
       <Banner />
       <AboutSection showLinks={true} />
       <Info />
-      {/* <Teaser /> */}
+      <Teaser />
       <PrevEditions />
       <ChallengesSection />
       <AxesSection />

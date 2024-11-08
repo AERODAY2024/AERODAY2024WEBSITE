@@ -54,7 +54,12 @@ const Countdown = () => {
   }, []);
   return (
     <div className="countdown-container">
-      <h1 id="headline">
+      <h1
+        id="headline"
+        style={{
+          fontSize: "2rem",
+        }}
+      >
         12<sup>ème</sup> édition de l'Aeroday
       </h1>
     </div>

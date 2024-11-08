@@ -5,5 +5,4 @@ export * from "./PageTitle";
 export * from "./Countdown";
 export * from "./ComingSoon";
 export * from "./Info";
-export * from "./VideoJS";
 export * from "./Teaser";

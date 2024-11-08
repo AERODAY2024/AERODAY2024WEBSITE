@@ -27,7 +27,12 @@ const PrevEditions = () => {
   });
 
   return (
-    <section className="news section">
+    <section
+      className="news section"
+      style={{
+        paddingTop: "0px",
+      }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-12">

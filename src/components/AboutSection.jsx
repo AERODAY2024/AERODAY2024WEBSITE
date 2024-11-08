@@ -13,7 +13,7 @@ const AboutSection = ({ showLinks }) => {
           <div className="col-lg-8 col-md-6 align-self-center">
             <div className="content-block">
               <h2>
-                About The <span className="alternate">AERODAY</span>
+                A propos de <span className="alternate">TUNISIAN AERODAY</span>
               </h2>
               <div className="description-one">
                 <p>
