@@ -48,7 +48,7 @@ export const navlinks = [
       },
       {
         title: "AIRSHOW",
-        url: "/axes/airshow",
+        url: "/challenges/airshow",
       },
       {
         title: "CHALLENGE CAO",

@@ -29,6 +29,14 @@ const ChallengeCard = ({ challenge }) => {
           <div className="post-details">
             {/* <p>{challenge.description}</p> */}
             <p dangerouslySetInnerHTML={{ __html: challenge.description }}></p>
+            {challenge.cdc && (
+              <button
+                className="btn-transparent-md"
+                onClick={() => window.open(challenge.cdc, "_blank")}
+              >
+                Consulter le cahier des charges
+              </button>
+            )}
           </div>
         </div>
       </article>

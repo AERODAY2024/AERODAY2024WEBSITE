@@ -5,31 +5,33 @@ const aerochallenge = {
   name: "AÉROCHALLENGE",
   image: challengesImages.aerochallenge,
   description:
-    "C'est une compétition ouverte aux étudiants et aux amateurs au cours de laquelle ils <strong>feront voler leurs drones dans un circuit bien déterminé</strong> tout en respectant le cahier des charges. Ce défi aura pour but de réunir les passionnés de ce domaine lors d'une confrontation où le talent, les compétences et l'enthousiasme seront au rendez-vous pour couronner un vainqueur d'un grand prix.",
+    "L'AéroChallenge est une compétition ouverte aux étudiants et passionnés, qui met les participants au défi de piloter leurs drones sur un circuit prédéfini, naviguant avec précision à travers les obstacles de la piste de course, tout en respectant les exigences du cahier des charges. Ce challenge a pour objectif de réunir les passionnés de drones dans un affrontement captivant où leur talent, leurs compétences et leur enthousiasme seront mis en lumière.",
   manager: committee.find((member) => member.name === "Amine Bensaid"),
   date: {
     day: 2,
     month: "Fevrier",
   },
+  cdc: "https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1H93Ztjk7KNu430nR-2e10UWrDBZlB6fp%2Fview%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR01386cW6FbSK-2yynXELlvzuXsOPRMQM4r3DVzwE4CeEkb2O5Zqpk36wQ_aem_9A3oCwdQDBMnfmVqoqJ-qA&h=AT14eHlfQyyAdZHekwnB5GbnQVsJOU3wLOQ9ChVUV58vCT-LwTrDjdHREamIh6sW6LxqL7PCCXRl9UjLJNfwOJbQPfPlcoBC4gQlX_Xa0rKzGffdk49YaRMC96AHBGfvucrd&__tn__=-UK-R&c[0]=AT2QT312vsxFOJhp03W0_EGvqEaeBRVdFgd_SPkb10SVIYKKbQ9vGOqIZ_1JcU-cXloz1OwpWcCjBS70bazGykTFIuGNehhcrkzCCWk9j-JWr5GFscBiYcqg0EL21YPVSN3JhkR7XBM0QG3ZOS0zVSeBmxcwgAYvbcOUvx92ov1JwIstsBTObYTgwjTPlepOJLcrcSbBqCR4KENiRlNy1mZp-J8",
 };
 
 const aeromodelisme = {
   name: "AÉROMODÉLISME",
   image: challengesImages.aeromodelisme,
   description:
-    "Revient pour la cinquième année consécutive dans <strong>le Tunisian Aeroday</strong>. Les participants devront construire leurs propres <strong>modèles de planeur de taille réduite</strong>, les présenter à un public de professionnels et d'amateurs et <strong>les faire voler</strong>. Cette compétition est ouverte à toutes les personnes souhaitant partager leur passion avec les autres.",
+    "L’AéroModélisme est un challenge indoor où les participants doivent concevoir et construire leurs propres modèles réduits de planeurs en suivant un cahier des charges précis. Chaque équipe fait ensuite voler son planeur, démontrant son talent technique et créatif devant un public de passionnés et un jury de professionnels. Ce challenge est une occasion unique de partager sa passion pour l’aéromodélisme dans une ambiance conviviale et inspirante.",
   manager: committee.find((member) => member.name === "Silini Jihed"),
   date: {
     day: 26,
     month: "Janvier",
   },
+  cdc: "https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1BKViNWs9jlOgWVojVORKeqAVzGei_M3M%2Fview%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR0J0JKDL0qKMsnJ01PVwu0tcgS4SXhkzpxV6Sp-5vOAO_4_R0w4_8Tov7M_aem_1rcFzATwEZzfZFH66rBjXA&h=AT0RKosAjRugABYXKEUAmumCCYghduMcf8jexndkZVML623KtIGzDeFsThxtEcl5FnW91yBsooceJGZiQfgud8xWsvZqhgDw6gUzlAj56ssPkgeGu8K7Nq_U6MfpiEgIAQBy&__tn__=-UK-R&c[0]=AT1Ec52DgoUy611wRPCQ81seS49ExptdR8e08vDilTI32-C3GQxC9GMtMlozAijGRRT0Torv6K5KExu45XoFUHdYVEH0sKWK7cKYrg69svKEMjUJldFljpm04ICt8t-0Wc85AD1L2T-zN84a6wZ_wBEDB3o7cRFpzuZH4B4lK0Np0GB0B9AB1LToKaefdk78M91Qv2iF6RqYW3zUrzIKa--mzFY",
 };
 
 const cao = {
   name: "CHALLENGE CAO",
   image: challengesImages.cao,
   description:
-    "Le challenge de CAO (Conception Assistée par Ordinateur) est une compétition destinée aux amateurs <strong>du design et du domaine aéronautique</strong> en même temps. Le challenge dure 24 heures au cours desquelles les participants vont exploiter leur créativité et leur imagination pour donner naissance à un <strong>modèle 3D</strong> valide et innovant d'un engin volant, en utilisant les logiciels de modélisation les plus récents tels que <strong>SolidWorks et Catia</strong>. Les participants vont présenter leur travail devant des <strong>juges experts</strong> dans le domaine de la <strong>CAO</strong> (Conception Assistée par Ordinateur) afin de l'évaluer selon des critères bien déterminés.",
+    "La Conception Assistée par Ordinateur est un challenge de 24 heures destinée aux passionnés du design et de l’aéronautique. Les participants devront concevoir un modèle 3D novateur et fonctionnel d’un engin, en respectant un cahier des charges précis et en utilisant des logiciels de modélisation (SolidWorks, Catia, …). À l'issue du challenge, chaque équipe présentera son projet devant un jury d'experts en CAO, qui évaluera les créations selon des critères pertinents.",
   manager: committee.find((member) => member.name === "Mohamed Hamzaoui"),
   date: {
     day: 1,
@@ -41,7 +43,7 @@ const aeroentrepreneur = {
   name: "AÉROENTREPRENEUR",
   image: challengesImages.aeroentrepreneur,
   description:
-    "Le challenge “AeroEntrepreneur” est une compétition de 24 heures destinée aux <strong>jeunes ambitieux de l'entrepreneuriat</strong> et à ceux qui ont des <strong>idées de projets dans le domaine aéronautique</strong> et ses dérivés. Un cahier des charges sera distribué aux équipes participantes, contenant le(s) sujet(s) à traiter ainsi que les critères de sélection et les documents demandés. Bien sûr, les participants vont présenter leur travail devant <strong>des juges experts dans le domaine de l'entrepreneuriat</strong>.",
+    "L'AéroEntrepreneur est un challenge de 24 heures, conçu pour les jeunes entrepreneurs ambitieux et les porteurs d'idées novatrices dans le domaine de l’aéronautique et ses secteurs connexes. Après l'annonce du cahier des charges, chaque équipe doit soumettre un business plan et un dossier détaillé, et aura l'opportunité de présenter son projet devant un jury d'experts en entrepreneuriat, qui évaluera les idées selon leur originalité, leur faisabilité et leur potentiel d'impact.",
   manager: committee.find((member) => member.name === "Kahlaoui Oussema"),
   date: {
     day: 1,
@@ -52,19 +54,20 @@ const aeroentrepreneur = {
 const airshow = {
   name: "AIRSHOW",
   description:
-    "L'Airshow est <strong>un défi en intérieur consacré aux avions radiocommandés</strong>. Lors de ce spectacle aérien compétitif, les participants sont amenés à présenter un <strong>show spectaculaire</strong>, utile et innovant qui met en valeur leurs compétences de pilotage. Un jury <strong>professionnel et un public enthousiaste</strong> seront présents pour évaluer les différentes performances.",
+    "L'AirShow est un challenge indoor dédié aux avions radio-commandés, où les participants doivent concevoir et réaliser leur propre PolyClub en suivant un cahier des charges rigoureux. Au cours de ce show aérien compétitif, chaque équipe présente un spectacle innovant, mettant en avant leurs compétences en pilotage devant un jury de professionnels et un public enthousiaste.",
   image: challengesImages.airshow,
   manager: committee.find((member) => member.name === "Sammoud Hamza"),
   date: {
     day: 26,
     month: "Janvier",
   },
+  cdc: "https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1AWALjzZnMJJ6-UeF62tKtX02gIR6S6D5%2Fview%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR3Z8PxIm5OdL00cIAiA6LXw_E6ZMK5X6Tj-qP8NFYEXbb6xcCihfAatMTU_aem_gaxabosCgCGr2ZYHWWgfPQ&h=AT3Zy9vBueCJVrShHbjvJhLmO0b5LvjVTuxzdAWfGwU3EjVhCvQuYBQFg2mcvRClhNyft-zkH6NL_4fkf887NmEznupTSM8fAmCBodL-JE-KFqwcAvopk1vfNOda4USftJ_m&__tn__=-UK-R&c[0]=AT38uBXGl2zSJrCbXo9ynhZquokygm3JfDtvbgS2Q0KAZ1u-bkB78KQdcDY4SCKFxa-pvejQnWcRiXQi3c3CwT-8LNJLgajgQf5Lr9qkJqhyChZW01vrL3usuDqk41oQKX8bXyxGTMxutK6rAcFQDYSEDQMvhPjbLnkejLwxOZhUWbbKuMWIojUdwYKyyBl_C8Ta1p-5-uBSBLvPuC2HOXAPf5c",
 };
 
 const videographie = {
   name: "VIDÉOGRAPHIE PAR DRONE",
   description:
-    "Ce challenge, comme son nom l'indique donne l'opportunité aux passionnés par la production visuelle par drone de présenter leurs oeuvres au monde et faire la course pour le premier prix, suivant un cahier des charges bien déterminé.",
+    "Le challenge de vidéographie par drone offre aux passionnés de production visuelle une occasion unique de présenter leurs œuvres au grand public. Les participants devront respecter un cahier des charges précis, garantissant une compétition de qualité où créativité et expertise seront mises en avant. Cette compétition mettra en lumière le talent des vidéastes et permettra de valoriser la maîtrise technique de la production aérienne.",
   image: challengesImages.videographie,
   manager: committee.find((member) => member.name === "Cherifa Chaouech"),
   date: {

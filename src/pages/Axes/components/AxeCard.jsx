@@ -25,6 +25,14 @@ const AxeCard = ({ axe }) => {
           <div className="post-details">
             {/* <p>{axe.description}</p> */}
             <p dangerouslySetInnerHTML={{ __html: axe.description }}></p>
+            {axe.cdc && (
+              <button
+                className="btn-transparent-md"
+                onClick={() => window.open(challenge.cdc, "_blank")}
+              >
+                Consulter le cahier des charges
+              </button>
+            )}
           </div>
         </div>
       </article>

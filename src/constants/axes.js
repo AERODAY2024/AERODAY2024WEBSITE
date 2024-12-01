@@ -4,7 +4,7 @@ import { committee } from "./";
 const aeronautiques = {
   name: "EXPOSITIONS AÉRONAUTIQUES",
   description:
-    "<strong>Des stands éblouissent les visiteurs par un mélange de créativité et d'enthousiasme des jeunes étudiants intéressés par l'aéronautique,</strong> enrichi par le savoir-faire des expérimentés. Parmi les différents projets exposés, on cite le <strong>simulateur de vol monoplace à 360°</strong> créé par l'équipe Technique du Club Aerobotix INSAT et exposé lors de l'édition de 2014. Celui-ci ressemble au célèbre simulateur de vol de Microsoft pour le monde 3D. Une fois terminé, il sera capable de simuler l'ensemble des mouvements d'avions.",
+    "Plongez dans une exposition aéronautique captivante où la créativité et la passion des jeunes passionnés rencontrent l'expertise des professionnels chevronnés. Les stands, installés dans le hall de l’INSAT, offrent un espace d’échange inspirant et intergénérationnel, mettant en lumière des projets, des innovations et des exploits remarquables.",
   image: axesImages.aeronautiques,
   manager: committee.find((member) => member.name === "Feten Ben Rejeb"),
   date: {
@@ -16,7 +16,7 @@ const aeronautiques = {
 const aerospatiales = {
   name: "EXPOSITIONS AÉROSPATIALES",
   description:
-    "Dans un monde où les ressources diminuent inexorablement, beaucoup pensent que l’avenir de l’homme est dans l’exploitation de l’espace. Depuis son apparition, <strong>le secteur aérospatial</strong> a joué un rôle de pionnier et de moteur dans la détermination des origines de la vie, mais aussi dans la recherche et le développement. En Tunisie, désormais l’espace fait rêver de nombreux jeunes, qui cherchent à approfondir leurs connaissances dans ce domaine, toujours absent dans nos systèmes éducatifs. C’est pour cela que la conquête de l’espace, ainsi que <strong>l’astronomie</strong>, intègrent pour la 5ème fois « Tunisian Aeroday ». On voudrait alors permettre aux jeunes passionnés de l’astronomie de partager la richesse de ce domaine à travers plusieurs activités. <strong>L’édition 2024 du Tunisian Aeroday comporte une multitude de projets à buts variés qui offrent l’opportunité d’explorer l’espace et de se plonger dans l’inconnu</strong>. Elle englobe tout ce qui concerne la conquête spatiale, remonte d’abord le temps au tout début de l’histoire de l’univers puis permet de découvrir le présent de l’astronomie et de l’aéronautique pour se projeter ensuite dans l’avenir de ces domaines. Parce que l'espace ne cesse de nous fasciner et de nous révéler ses plus grands secrets, <strong>Tunisian Aeroday vous fournit un espace idéal pour exposer vos projets et pour étendre votre connaissance aérospatiale.</strong>",
+    "Cet axe vous invite à explorer un domaine captivant qui repousse les frontières terrestres et ouvre les portes de l’innovation et de l’avenir. Le secteur aérospatial suscite un intérêt grandissant pour les mystères de l’univers. Cette exposition offrira aux visiteurs l’occasion de plonger dans une diversité de projets fascinants, révélant les promesses de l’espace et éveillant la curiosité des passionnés pour l’astronomie et l’exploration spatiale.",
   image: axesImages.aerospatiales,
   manager: committee.find((member) => member.name === "Ksibi Ahmed"),
   date: {
@@ -28,7 +28,7 @@ const aerospatiales = {
 const novices = {
   name: "ATELIERS NOVICES",
   description:
-    "Et parce que nous croyons en la capacité des générations à venir, on a conçu des ateliers novices qui ont pour objectif de créer <strong>un mini Aeroday pour les enfants âgés de 4 à 17 ans</strong> et de leur faire découvrir surtout le monde de l'aéronautique. Ainsi, des ateliers par âge, des stands et des challenges de CAO, d'aéromodélisme, et de gaming adaptés à leurs potentiels seront au rendez-vous...",
+    "Avec une confiance profonde dans le potentiel des générations futures, nous avons créé les Ateliers Novices, une expérience immersive pour les enfants de 4 à 17 ans, visant à les initier au monde de l'aéronautique. Ce mini Aeroday propose des ateliers adaptés à chaque tranche d'âge, incluant des défis en aéromodélisme, programmation et  conception assistée par ordinateur (CAO), pour des découvertes enrichissantes.",
   image: axesImages.novices,
   manager: committee.find((member) => member.name === "Kabadou Nermine"),
   date: {
@@ -40,7 +40,7 @@ const novices = {
 const ambassade = {
   name: "AMBASSADE",
   description:
-    "L'ambassade est l'axe de l'Aeroday qui vise à <strong>l'internationalisation</strong> de l'événement, que ce soit par l'invitation <strong>de conférenciers, de participants ou de médias internationaux.</strong>",
+    "L’Ambassade est un axe clé de l’Aeroday, visant à donner une dimension nationale et internationale  à l’événement. En attirant des conférenciers, participants, et médias , cet axe assure une organisation inclusive et diversifiée. Grâce à son réseau d’ambassadeurs, il connecte l’événement avec plusieurs universités et acteurs nationaux, tout en organisant des conférences qui encouragent le partage des connaissances en aéronautique.",
   image: axesImages.ambassade,
   manager: committee.find((member) => member.name === "Laabidi Nour El Houda"),
   date: {
