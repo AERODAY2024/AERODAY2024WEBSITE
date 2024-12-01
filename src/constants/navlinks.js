@@ -29,10 +29,6 @@ export const navlinks = [
         url: "/axes/novices",
       },
       {
-        title: "AIRSHOW",
-        url: "/axes/airshow",
-      },
-      {
         title: "AMBASSADE",
         url: "/axes/ambassade",
       },
@@ -51,12 +47,20 @@ export const navlinks = [
         url: "/challenges/aeromodelisme",
       },
       {
+        title: "AIRSHOW",
+        url: "/axes/airshow",
+      },
+      {
         title: "CHALLENGE CAO",
         url: "/challenges/cao",
       },
       {
         title: "AÉROENTREPRENEUR",
         url: "/challenges/aeroentrepreneur",
+      },
+      {
+        title: "VIDÉOGRAPHIE PAR DRONE",
+        url: "/challenges/videographie",
       },
     ],
   },
