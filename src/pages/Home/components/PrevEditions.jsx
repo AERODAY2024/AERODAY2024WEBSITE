@@ -40,15 +40,15 @@ const PrevEditions = () => {
               <h3>
                 Nos <span className="alternate">Editions Précédentes</span>
               </h3>
-              <div className="description-one">
-                <p style={{ color: "black" }}>
-                  Nos Éditions Précédentes ont été des moments mémorables qui
-                  ont marqué l'histoire de l'aéronautique en Tunisie. Chaque
-                  édition a été un succès grâce à la participation passionnée de
-                  nos partenaires, des participants et du public. Nous sommes
-                  fiers de notre héritage et nous nous efforçons continuellement
-                  d'innover et de surpasser les attentes à chaque nouvelle
-                  édition.
+              <div className="description-one mt-3">
+                <p style={{ color: "black", textAlign: "left" }}>
+                  <b>Nos Éditions Précédentes</b> ont été des{" "}
+                  <b>moments mémorables</b> qui ont marqué l'histoire de
+                  l'aéronautique en Tunisie. Chaque édition a été un succès
+                  grâce à la participation passionnée de nos partenaires, des
+                  participants et du public. Nous sommes fiers de notre héritage
+                  et nous nous efforçons continuellement d'innover et de
+                  surpasser les attentes à chaque nouvelle édition.
                   <br /> Replongez dans nos précédents événements et découvrez
                   les moments forts qui ont façonné notre histoire aéronautique
                   nationale.

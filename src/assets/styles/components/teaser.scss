@@ -5,7 +5,7 @@
 }
 
 .hero-text {
-  text-align: center;
+  // text-align: center;
 }
 
 .hero-text h2 {
@@ -41,7 +41,7 @@
   color: #ffffff;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-align: center;
+  // text-align: center;
   width: 160px;
   height: 46px;
   border-left: 2px solid #e16521;
@@ -117,29 +117,29 @@
 
 .bg-hero1 {
   background-size: cover;
-  background-position: center center;
+  // // background-position: center center;
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  // background-position: top center;
   height: 100vh;
 }
 .bg-hero2 {
   background-size: cover;
-  background-position: center center;
+  // // background-position: center center;
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  // background-position: top center;
   height: 100vh;
 }
 .bg-hero3 {
   background-size: cover;
-  background-position: center center;
+  // // background-position: center center;
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  // background-position: top center;
   height: 100vh;
 }
 .banner {
@@ -166,7 +166,7 @@
           font-family: $secondary-font;
           font-size: 35px;
           line-height: 77px;
-          text-align: center;
+          // text-align: center;
           position: relative;
           font-weight: bold;
           color: $light;
@@ -184,7 +184,7 @@
           }
         }
         .syotimer-cell__unit {
-          text-align: center;
+          // text-align: center;
           font-size: 1rem;
           text-transform: lowercase;
           font-weight: normal;
@@ -238,7 +238,7 @@
     }
     @include tablet {
       margin-bottom: 30px;
-      text-align: center;
+      // text-align: center;
     }
     &.two {
       padding: 0;
@@ -255,7 +255,7 @@
   .content-block {
     margin-left: 15px;
     @include tablet {
-      text-align: center;
+      // text-align: center;
     }
     h2 {
       &:after {
@@ -306,7 +306,7 @@
 .schedule {
   .schedule-tab {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     margin-top: 14px;
     ul {
       li.nav-item {
@@ -468,7 +468,7 @@
   &.two {
     .schedule-tab {
       display: flex;
-      justify-content: center;
+      // justify-content: center;
       margin-top: 30px;
       ul {
         li.nav-item {
@@ -591,7 +591,7 @@
             border-bottom: 1px solid $border-color;
           }
           .block {
-            text-align: center;
+            // text-align: center;
             padding: 0;
             background: $light;
             width: 100%;
@@ -673,7 +673,7 @@
           height: 100px;
           width: 100px;
           line-height: 100px;
-          text-align: center;
+          // text-align: center;
           position: relative;
           font-weight: bold;
           color: $light;
@@ -691,7 +691,7 @@
           // box-shadow: 0px 0px 0px 4px green;
         }
         .syotimer-cell__unit {
-          text-align: center;
+          // text-align: center;
           font-size: 1rem;
           text-transform: lowercase;
           font-weight: normal;
@@ -723,7 +723,7 @@
     }
     .service-item {
       padding: 30px;
-      text-align: center;
+      // text-align: center;
       i,
       h5 {
         color: $light;
@@ -778,7 +778,7 @@
     }
     .service-item {
       padding: 30px;
-      text-align: center;
+      // text-align: center;
       i,
       h5 {
         color: $light;
@@ -1105,13 +1105,13 @@
     p {
       margin-bottom: 25px;
       @include tablet {
-        text-align: center;
+        // text-align: center;
       }
     }
   }
   .testimonial {
     @include tablet {
-      text-align: center;
+      // text-align: center;
     }
     p {
       font-family: $secondary-font;
@@ -1142,7 +1142,7 @@
   }
   .app-explore {
     display: flex;
-    justify-content: center !important;
+    // justify-content: center !important;
     margin-bottom: 40px;
   }
 }
@@ -1150,7 +1150,7 @@
 .banner-full {
   .image {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     img {
       height: 625px;
     }
@@ -1160,7 +1160,7 @@
   }
   .block {
     @include tablet {
-      text-align: center;
+      // text-align: center;
     }
     .logo {
       margin-bottom: 40px;
@@ -1183,7 +1183,7 @@
   .content-block {
     width: 60%;
     margin: 0 auto;
-    text-align: center;
+    // text-align: center;
     h2 {
       font-size: 30px;
       color: $light;
@@ -1199,7 +1199,7 @@
         display: inline-block;
         font-size: 40px;
         color: $light;
-        text-align: center;
+        // text-align: center;
         line-height: 125px;
         border-radius: 100%;
       }
@@ -1216,7 +1216,7 @@
       padding-bottom: 10px;
       .block {
         padding: 40px;
-        text-align: center;
+        // text-align: center;
         margin: 10px;
         border-radius: 5px;
         .image {
@@ -1224,7 +1224,7 @@
           margin-bottom: 5px;
           width: 100%;
           display: flex;
-          justify-content: center;
+          // justify-content: center;
           @include tablet {
             flex-grow: 1;
           }

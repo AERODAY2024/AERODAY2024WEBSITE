@@ -31,22 +31,24 @@ export const Teaser = () => {
                   title="Vimeo Video"
                 ></iframe>
               </div>
-              <div className="description-one">
-                <p style={{ color: "black" }}>
+              <div className="description-one mt-3">
+                <p style={{ color: "black", textAlign: "left" }}>
                   Cette{" "}
                   <b>
-                    12<sup>ème</sup> édition
-                  </b>{" "}
-                  du Tunisian Aeroday, placée sous le thème inspirant de{" "}
+                    12<sup>ème</sup> édition du Tunisian Aeroday
+                  </b>
+                  , placée sous le thème inspirant de{" "}
                   <b>Cieux éternels de l’Afrique</b>, incarne une ambition forte
                   : celle de positionner la Tunisie comme un centre névralgique
-                  de l'aviation en Afrique. Le choix de ce thème reflète une
-                  vision d’avenir qui relie l'héritage riche et intemporel du
-                  continent africain à son potentiel important de développement
-                  dans le domaine de l'aéronautique. Il s'agit d'un appel à
-                  exploiter les vastes horizons de l'innovation, à favoriser les
-                  échanges et à explorer les opportunités stratégiques qu'offre
-                  l'aviation, un secteur en pleine expansion en Afrique.
+                  de l'aviation en Afrique.
+                  <br />
+                  Le choix de ce thème reflète une vision d’avenir qui relie
+                  l'héritage riche et intemporel du continent africain à son
+                  potentiel important de développement dans le domaine de
+                  l'aéronautique. Il s'agit d'un appel à exploiter les vastes
+                  horizons de l'innovation, à favoriser les échanges et à
+                  explorer les opportunités stratégiques qu'offre l'aviation, un
+                  secteur en pleine expansion en Afrique.
                   <br />
                   Ce grand rassemblement vise à sensibiliser le public à
                   l'importance croissante de l'industrie aéronautique en Afrique
@@ -54,12 +56,14 @@ export const Teaser = () => {
                   technologique de la région.
                   <br />
                   {!showMore && (
-                    <button
-                      className="btn btn-main-md"
-                      onClick={() => setShowMore(!showMore)}
-                    >
-                      Voir plus
-                    </button>
+                    <p style={{ textAlign: "center" }} className="mt-3">
+                      <button
+                        className="btn btn-transparent-md"
+                        onClick={() => setShowMore(!showMore)}
+                      >
+                        Voir plus
+                      </button>
+                    </p>
                   )}
                   {showMore && (
                     <>
@@ -81,7 +85,7 @@ export const Teaser = () => {
                   <br />
                   {showMore && (
                     <button
-                      className="btn btn-main-md"
+                      className="btn btn-transparent-md"
                       onClick={() => setShowMore(!showMore)}
                     >
                       Voir moins
