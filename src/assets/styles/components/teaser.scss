@@ -44,8 +44,8 @@
   // text-align: center;
   width: 160px;
   height: 46px;
-  border-left: 2px solid #e16521;
-  border-right: 2px solid #d1ae4a;
+  border-left: 2px solid #39222a;
+  border-right: 2px solid #e13e50;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-position: 0 0, 0 100%;
@@ -55,14 +55,14 @@
       linear,
       left top,
       right top,
-      color-stop(100%, #d1ae4a),
-      to(#e16521)
+      color-stop(100%, #e13e50),
+      to(#39222a)
     ),
-    -webkit-gradient(linear, left top, right top, from(#d1ae4a), color-stop(0%, #e16521));
-  background-image: -o-linear-gradient(left, #d1ae4a 100%, #e16521 100%),
-    -o-linear-gradient(left, #d1ae4a 0%, #e16521 0%);
-  background-image: linear-gradient(to right, #d1ae4a 100%, #e16521 100%),
-    linear-gradient(to right, #d1ae4a 0%, #e16521 0%);
+    -webkit-gradient(linear, left top, right top, from(#e13e50), color-stop(0%, #39222a));
+  background-image: -o-linear-gradient(left, #e13e50 100%, #39222a 100%),
+    -o-linear-gradient(left, #e13e50 0%, #39222a 0%);
+  background-image: linear-gradient(to right, #e13e50 100%, #39222a 100%),
+    linear-gradient(to right, #e13e50 0%, #39222a 0%);
   -webkit-transition-duration: 1000ms;
   -o-transition-duration: 1000ms;
   transition-duration: 1000ms;
@@ -78,16 +78,16 @@
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background: #e16521;
+  background: #39222a;
   background: -webkit-gradient(
     linear,
     left top,
     right top,
-    from(#e16521),
-    to(#d1ae4a)
+    from(#39222a),
+    to(#e13e50)
   );
-  background: -o-linear-gradient(left, #e16521, #d1ae4a);
-  background: linear-gradient(to right, #e16521, #d1ae4a);
+  background: -o-linear-gradient(left, #39222a, #e13e50);
+  background: linear-gradient(to right, #39222a, #e13e50);
   content: "";
   position: absolute;
   width: 100%;
