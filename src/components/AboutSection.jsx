@@ -18,9 +18,9 @@ const AboutSection = ({ showLinks }) => {
               <div className="description-one">
                 <p>
                   Tunisian Aeroday est l’unique journée nationale entièrement
-                  consacrée à l’aéronautique en Tunisie. Elle est fondée par le
-                  club Aerobotix de l'INSAT en collaboration avec l’Association
-                  des Techniques de Robotique (ATR).
+                  consacrée à l’aéronautique en Tunisie. L’événement, fondé par
+                  le club Aerobotix de l'INSAT, est organisé en collaboration
+                  avec l’Association des Techniques de Robotique (ATR).
                 </p>
               </div>
               <div className="description-two">
