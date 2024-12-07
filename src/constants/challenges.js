@@ -37,6 +37,7 @@ const cao = {
     day: 1,
     month: "Fevrier",
   },
+  cdc: "https://drive.google.com/file/d/1rhgAsUhSW_iFbBp8I5v0XGgNEt5Dd037/view?fbclid=IwZXh0bgNhZW0CMTAAAR1FO7CwlOmCGPhNJ2eQJlL0pQbxAPFEi8GPLGhfXNZGq0G22MZK0msL70E_aem_XMJi-Mf_7AKW8Xx7qvoeQQ",
 };
 
 const aeroentrepreneur = {
@@ -49,6 +50,7 @@ const aeroentrepreneur = {
     day: 1,
     month: "Fevrier",
   },
+  cdc: "https://drive.google.com/file/d/1fzwi5cwoWvOOmx2PnpcE_VlkGFuGHKNJ/view?fbclid=IwZXh0bgNhZW0CMTAAAR0c9MJ7Eh30zMwPSwYqs1RxwwS3CGxPOiWuPtfPKUAO3t85UmIse1IWSCg_aem_pR_02KVFkLSDd5rhOedeJw",
 };
 
 const airshow = {
