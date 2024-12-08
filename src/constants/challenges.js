@@ -76,6 +76,7 @@ const videographie = {
     day: 2,
     month: "Fevrier",
   },
+  cdc: "https://drive.google.com/file/d/1vjo3fMQ5CEovIYCA0VAr4geWp4gx26rh/view?usp=sharing",
 };
 
 export const challenges = {
