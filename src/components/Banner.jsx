@@ -14,6 +14,7 @@ const BannerText = () => {
       >
         Tunisian Aeroday 2025
       </h1>
+      <h2>Le 2 février 2025 à l'INSAT</h2>
       <NavLink
         to={"/about-us"}
         className="about-link"

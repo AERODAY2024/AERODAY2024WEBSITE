@@ -5,7 +5,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "50532842",
-    aerodayAddress: "RT4",
+    aerodayAddress: "arij.aguel@aeroday.tn",
     personalEmail: "arij.aguel02@gmail.com",
   },
   {
@@ -14,7 +14,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "94385507",
-    aerodayAddress: "IIA4",
+    aerodayAddress: "amine.belhajamor@aeroday.tn",
     personalEmail: "aminebhj27@gmail.com",
   },
   {
@@ -23,7 +23,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "28289963",
-    aerodayAddress: "CH4",
+    aerodayAddress: "emna.benali@aeroday.tn",
     personalEmail: "emnabenali0128@gmail.com",
   },
   {
@@ -32,7 +32,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "24651753",
-    aerodayAddress: "IIA2",
+    aerodayAddress: "hamza.sammoud@aeroday.tn",
     personalEmail: "hamza.sammoud11@gmail.com",
   },
   {
@@ -41,7 +41,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "23051505",
-    aerodayAddress: "IIA2",
+    aerodayAddress: "amine.bensaid@aeroday.tn",
     personalEmail: "Aminebensaid66@gmail.com",
   },
   {
@@ -50,7 +50,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "",
-    aerodayAddress: "RT4",
+    aerodayAddress: "cherifa.chaouech@aeroday.tn",
     personalEmail: "cherifachaouch7@gmail.com",
   },
   {
@@ -59,7 +59,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "27467595",
-    aerodayAddress: "IIA2",
+    aerodayAddress: "jihed.silini@aeroday.tn",
     personalEmail: "jihed1.silini@gmail.com",
   },
   {
@@ -68,7 +68,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "52020229",
-    aerodayAddress: "BIO4",
+    aerodayAddress: "oussema.kahlaoui@aeroday.tn",
     personalEmail: "oussemaest89@gmail.com",
   },
   {
@@ -77,7 +77,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "",
-    aerodayAddress: "IIA3",
+    aerodayAddress: "mohamed.hamzaoui@aeroday.tn",
     personalEmail: "",
   },
   {
@@ -86,7 +86,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "92214022",
-    aerodayAddress: "IIA3",
+    aerodayAddress: "ahmed.ksibi@aeroday.tn",
     personalEmail: "ahmed.ksibi9@gmail.com",
   },
   {
@@ -95,7 +95,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "29180195",
-    aerodayAddress: "CH4",
+    aerodayAddress: "benrejeb.feten@aeroday.tn",
     personalEmail: "fetenbenrjeb9@gmail.com",
   },
   {
@@ -104,7 +104,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "95864411",
-    aerodayAddress: "IMI3",
+    aerodayAddress: "nourelhoda.laabidi@aeroday.tn",
     personalEmail: "labidinour29@gmail.com",
   },
   {
@@ -113,7 +113,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "52902302",
-    aerodayAddress: "RT4",
+    aerodayAddress: "nermine.kabadou@aeroday.tn",
     personalEmail: "kabadounermine@gmail.com",
   },
   {
@@ -122,7 +122,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "52318280",
-    aerodayAddress: "RT4",
+    aerodayAddress: "aziza.nagara@aeroday.tn",
     personalEmail: "azizanagara0@gmail.com",
   },
   {
@@ -131,7 +131,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "53054481",
-    aerodayAddress: "IMI2",
+    aerodayAddress: "feriel.elloumi@aeroday.tn",
     personalEmail: "fefefelelelefefe@gmail.com",
   },
   {
@@ -140,7 +140,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "58074323",
-    aerodayAddress: "RT2",
+    aerodayAddress: "imen.ferchichi@aeroday.tn",
     personalEmail: "ferchichiimen.lp@gmail.com",
   },
   {
@@ -149,7 +149,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "93203229",
-    aerodayAddress: "GL2",
+    aerodayAddress: "yessin.allouch@aeroday.tn",
     personalEmail: "yessinallouch65@gmail.com",
   },
   {
@@ -158,7 +158,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "55242726",
-    aerodayAddress: "GL3",
+    aerodayAddress: "amin.chabbah@aeroday.tn",
     personalEmail: "chabbahamin5@gmail.com",
   },
   {
@@ -167,7 +167,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "94766307",
-    aerodayAddress: "GL3",
+    aerodayAddress: "eya.mhamdi@aeroday.tn",
     personalEmail: "eyamhamdi2003@gmail.com",
   },
   {
@@ -176,7 +176,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "23884059",
-    aerodayAddress: "CH3",
+    aerodayAddress: "meriem.slim@aeroday.tn",
     personalEmail: "slimmeryem75@gmail.com",
   },
   {
@@ -185,7 +185,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "22214729",
-    aerodayAddress: "IMI4",
+    aerodayAddress: "maher.mahmoudi@aeroday.tn",
     personalEmail: "1maher.mahmoudi1@gmail.com",
   },
   {
@@ -194,7 +194,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "51067304",
-    aerodayAddress: "GL4",
+    aerodayAddress: "houssem.sahnoun@aeroday.tn",
     personalEmail: "sahnoun.houssem05@gmail.com",
   },
   {
@@ -203,7 +203,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "",
-    aerodayAddress: "IMI3",
+    aerodayAddress: "",
     personalEmail: "",
   },
   {
@@ -212,7 +212,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "95474874",
-    aerodayAddress: "IMI3",
+    aerodayAddress: "borhen.cherni@aeroday.tn",
     personalEmail: "borhencher35@gmail.com",
   },
   {
@@ -221,7 +221,7 @@ const committee = [
     image: "",
     facebook: "",
     phoneNumber: "50349400",
-    aerodayAddress: "IMI2",
+    aerodayAddress: "maryem.besbes@aeroday.tn",
     personalEmail: "besbesbiba@gmail.com",
   },
 ];

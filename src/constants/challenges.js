@@ -12,6 +12,7 @@ const aerochallenge = {
     month: "Fevrier",
   },
   cdc: "https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1H93Ztjk7KNu430nR-2e10UWrDBZlB6fp%2Fview%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR01386cW6FbSK-2yynXELlvzuXsOPRMQM4r3DVzwE4CeEkb2O5Zqpk36wQ_aem_9A3oCwdQDBMnfmVqoqJ-qA&h=AT14eHlfQyyAdZHekwnB5GbnQVsJOU3wLOQ9ChVUV58vCT-LwTrDjdHREamIh6sW6LxqL7PCCXRl9UjLJNfwOJbQPfPlcoBC4gQlX_Xa0rKzGffdk49YaRMC96AHBGfvucrd&__tn__=-UK-R&c[0]=AT2QT312vsxFOJhp03W0_EGvqEaeBRVdFgd_SPkb10SVIYKKbQ9vGOqIZ_1JcU-cXloz1OwpWcCjBS70bazGykTFIuGNehhcrkzCCWk9j-JWr5GFscBiYcqg0EL21YPVSN3JhkR7XBM0QG3ZOS0zVSeBmxcwgAYvbcOUvx92ov1JwIstsBTObYTgwjTPlepOJLcrcSbBqCR4KENiRlNy1mZp-J8",
+  form: "https://docs.google.com/forms/d/e/1FAIpQLSfXa7u8Ddvld5S9myAjSoHavoBaSy3Tb5kVc886ibmmACfr7A/viewform",
 };
 
 const aeromodelisme = {
@@ -25,6 +26,7 @@ const aeromodelisme = {
     month: "Janvier",
   },
   cdc: "https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1BKViNWs9jlOgWVojVORKeqAVzGei_M3M%2Fview%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR0J0JKDL0qKMsnJ01PVwu0tcgS4SXhkzpxV6Sp-5vOAO_4_R0w4_8Tov7M_aem_1rcFzATwEZzfZFH66rBjXA&h=AT0RKosAjRugABYXKEUAmumCCYghduMcf8jexndkZVML623KtIGzDeFsThxtEcl5FnW91yBsooceJGZiQfgud8xWsvZqhgDw6gUzlAj56ssPkgeGu8K7Nq_U6MfpiEgIAQBy&__tn__=-UK-R&c[0]=AT1Ec52DgoUy611wRPCQ81seS49ExptdR8e08vDilTI32-C3GQxC9GMtMlozAijGRRT0Torv6K5KExu45XoFUHdYVEH0sKWK7cKYrg69svKEMjUJldFljpm04ICt8t-0Wc85AD1L2T-zN84a6wZ_wBEDB3o7cRFpzuZH4B4lK0Np0GB0B9AB1LToKaefdk78M91Qv2iF6RqYW3zUrzIKa--mzFY",
+  form: "https://docs.google.com/forms/d/e/1FAIpQLSdRxbv6Ns71AbU7hVCb7cqqMdETmdyehEZP5daafVqP74pZ5w/viewform?usp=send_form",
 };
 
 const cao = {
@@ -38,6 +40,7 @@ const cao = {
     month: "Fevrier",
   },
   cdc: "https://drive.google.com/file/d/1rhgAsUhSW_iFbBp8I5v0XGgNEt5Dd037/view?fbclid=IwZXh0bgNhZW0CMTAAAR1FO7CwlOmCGPhNJ2eQJlL0pQbxAPFEi8GPLGhfXNZGq0G22MZK0msL70E_aem_XMJi-Mf_7AKW8Xx7qvoeQQ",
+  form: "https://docs.google.com/forms/d/e/1FAIpQLSeaTb3aJTtgzBGn5RXgWTCKcH3guoj23w7DB24_giR1OMiUPw/viewform",
 };
 
 const aeroentrepreneur = {
@@ -64,6 +67,7 @@ const airshow = {
     month: "Janvier",
   },
   cdc: "https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1AWALjzZnMJJ6-UeF62tKtX02gIR6S6D5%2Fview%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR3Z8PxIm5OdL00cIAiA6LXw_E6ZMK5X6Tj-qP8NFYEXbb6xcCihfAatMTU_aem_gaxabosCgCGr2ZYHWWgfPQ&h=AT3Zy9vBueCJVrShHbjvJhLmO0b5LvjVTuxzdAWfGwU3EjVhCvQuYBQFg2mcvRClhNyft-zkH6NL_4fkf887NmEznupTSM8fAmCBodL-JE-KFqwcAvopk1vfNOda4USftJ_m&__tn__=-UK-R&c[0]=AT38uBXGl2zSJrCbXo9ynhZquokygm3JfDtvbgS2Q0KAZ1u-bkB78KQdcDY4SCKFxa-pvejQnWcRiXQi3c3CwT-8LNJLgajgQf5Lr9qkJqhyChZW01vrL3usuDqk41oQKX8bXyxGTMxutK6rAcFQDYSEDQMvhPjbLnkejLwxOZhUWbbKuMWIojUdwYKyyBl_C8Ta1p-5-uBSBLvPuC2HOXAPf5c",
+  form: "https://docs.google.com/forms/d/e/1FAIpQLSf0tl1LmAQ7iaH3tU59gh-iL0wE7FiDBFVrSgfZ_0-9Hi0CRw/viewform",
 };
 
 const videographie = {
@@ -77,6 +81,7 @@ const videographie = {
     month: "Fevrier",
   },
   cdc: "https://drive.google.com/file/d/1vjo3fMQ5CEovIYCA0VAr4geWp4gx26rh/view?usp=sharing",
+  form: "https://docs.google.com/forms/d/e/1FAIpQLScQhFekTTsnn50kbgVK9ZS9wppcbBwzP6m8wWjj_47-HeA-MQ/viewform",
 };
 
 export const challenges = {
@@ -93,6 +98,6 @@ export const challengesArray = [
   { ...aeromodelisme, url: "/challenges/aeromodelisme" },
   { ...airshow, url: "/challenges/airshow" },
   { ...cao, url: "/challenges/cao" },
-  { ...aeroentrepreneur, url: "/challenges/aeroentrepreneur" },
+  // { ...aeroentrepreneur, url: "/challenges/aeroentrepreneur" },
   { ...videographie, url: "/challenges/videographie" },
 ];

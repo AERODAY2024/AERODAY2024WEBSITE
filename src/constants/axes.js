@@ -11,6 +11,7 @@ const aeronautiques = {
     day: 2,
     month: "Fevrier",
   },
+  form: "https://docs.google.com/forms/d/e/1FAIpQLSePpgq2crhAPU5vX8pog-ocRdyAJqy2kw1-jJpEY2cJWbJwXQ/viewform?fbclid=IwZXh0bgNhZW0CMTAAAR3I8W-v7UtvyoAzZL_oQfElcA64HSitPiuV-26Le-vYI2KMNx2r1FQ6XgA_aem_tZGm37eBWZmStL0mS4ChWA",
 };
 
 const aerospatiales = {
@@ -23,6 +24,7 @@ const aerospatiales = {
     day: 2,
     month: "Fevrier",
   },
+  form: "https://docs.google.com/forms/d/e/1FAIpQLSePpgq2crhAPU5vX8pog-ocRdyAJqy2kw1-jJpEY2cJWbJwXQ/viewform?fbclid=IwZXh0bgNhZW0CMTAAAR3I8W-v7UtvyoAzZL_oQfElcA64HSitPiuV-26Le-vYI2KMNx2r1FQ6XgA_aem_tZGm37eBWZmStL0mS4ChWA",
 };
 
 const novices = {
