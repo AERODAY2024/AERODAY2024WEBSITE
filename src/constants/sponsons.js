@@ -2,16 +2,44 @@ import { sponsorsImages } from "../assets/images/sponsors";
 
 const sponsors = [
   {
-    name: "sponsor1",
-    image: sponsorsImages[0],
+    name: "INSAT",
+    image: sponsorsImages.insat,
   },
   {
-    name: "sponsor2",
-    image: sponsorsImages[1],
+    name: "ORANGE",
+    image: sponsorsImages.orange,
   },
   {
-    name: "sponsor3",
-    image: sponsorsImages[2],
+    name: "AGIL",
+    image: sponsorsImages.agil,
+  },
+  {
+    name: "THE GAME PRODUCTION",
+    image: sponsorsImages.game,
+  },
+  {
+    name: "SNE SOMETEL",
+    image: sponsorsImages.sne,
+  },
+  {
+    name: "CAMPI",
+    image: sponsorsImages.CAMPI,
+  },
+  {
+    name: "DAILYN",
+    image: sponsorsImages.daylin,
+  },
+  {
+    name: "CINE RADIO",
+    image: sponsorsImages.cine,
+  },
+  {
+    name: "THEATRO",
+    image: sponsorsImages.theatro,
+  },
+  {
+    name: "ODV+",
+    image: sponsorsImages.odv,
   },
 ];
 

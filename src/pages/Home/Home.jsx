@@ -7,11 +7,7 @@ import {
   Teaser,
 } from "../../components";
 import { ChallengesSection } from "../Challenges";
-import {
-  Map,
-  PrevEditions,
-  //  Sponsors
-} from "./components";
+import { Map, PrevEditions, Sponsors } from "./components";
 import { AxesSection } from "../Axes";
 
 const Home = () => {
@@ -24,7 +20,7 @@ const Home = () => {
       <PrevEditions />
       <ChallengesSection />
       <AxesSection />
-      {/* <Sponsors /> */}
+      <Sponsors />
       <ContactForm className={"my-5"} />
       <Map />
     </>
