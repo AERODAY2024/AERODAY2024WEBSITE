@@ -5,16 +5,15 @@ import { heroImages } from "../assets/images";
 
 const BannerText = () => {
   return (
-    <div className="hero-text">
-      <h2>Rejoignez-nous</h2>
+    <div className="hero-text" style={{ marginTop: '20dvh' }}>
       <h1
         style={{
           fontSize: "2.5rem",
         }}
       >
-        Tunisian Aeroday 2025
+        Tunisian Aeroday 2026
       </h1>
-      <h2>Le 2 février 2025 à l'INSAT</h2>
+      <Countdown />
       <NavLink
         to={"/about-us"}
         className="about-link"
@@ -22,7 +21,6 @@ const BannerText = () => {
       >
         Lire la suite
       </NavLink>
-      <Countdown />
     </div>
   );
 };
