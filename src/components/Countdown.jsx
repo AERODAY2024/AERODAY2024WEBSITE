@@ -53,14 +53,14 @@ const Countdown = () => {
     };
   }, []);
   return (
-    <div className="countdown-container">
+    <div>
       <h1
         id="headline"
         style={{
           fontSize: "2rem",
         }}
       >
-        12<sup>ème</sup> édition de l'Aeroday
+        13<sup>ème</sup> édition de l'Aeroday
       </h1>
     </div>
   );
